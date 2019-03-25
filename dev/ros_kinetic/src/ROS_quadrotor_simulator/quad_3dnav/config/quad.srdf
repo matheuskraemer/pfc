@@ -20,6 +20,7 @@
     <passive_joint name="quad/imu_joint" />
     <passive_joint name="quad/imugt_joint" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
+    <!-- <disable_collisions link1="base_link_inertia" link2="<octomap>" reason="Adjacent" /> -->
     <disable_collisions link1="base_link_inertia" link2="quad/camera__link" reason="Adjacent" />
     <disable_collisions link1="base_link_inertia" link2="rotor_0" reason="Adjacent" />
     <disable_collisions link1="base_link_inertia" link2="rotor_1" reason="Adjacent" />
