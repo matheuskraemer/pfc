@@ -1,0 +1,8 @@
+prefix=/home/matheus/Projects/pfc/dev/ros_kinetic/install
+
+Name: rotors_joy_interface
+Description: Description of rotors_joy_interface
+Version: 1.0.0
+Cflags: -I/home/matheus/Projects/pfc/dev/ros_kinetic/install/include
+Libs: -L/home/matheus/Projects/pfc/dev/ros_kinetic/install/lib 
+Requires: roscpp geometry_msgs mav_msgs sensor_msgs

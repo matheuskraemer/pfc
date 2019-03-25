@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/Tools/jMAVSim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/Tools/jMAVSim/jMAVlib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/Tools/sitl_gazebo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/Tools/sitl_gazebo/external/OpticalFlow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/mavlink/include/mavlink/v2.0" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/msg/tools/gencpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/msg/tools/genmsg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/src/drivers/gps/devices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/src/lib/DriverFramework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/src/lib/DriverFramework/dspal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/src/lib/DriverFramework/dspal/cmake_hexagon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/src/lib/ecl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware/src/lib/matrix" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/Tools/sitl_gazebo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/Tools/sitl_gazebo/external/OpticalFlow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/Tools/sitl_gazebo/external/OpticalFlow/external/klt_feature_tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/mavlink/include/mavlink/v2.0" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/msg/tools/gencpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/msg/tools/genmsg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/src/drivers/gps/devices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/src/lib/DriverFramework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/src/lib/DriverFramework/dspal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/src/lib/DriverFramework/dspal/cmake_hexagon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/src/lib/ecl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/px4_src/src/Firmware_old/src/lib/matrix" vcs="Git" />
+  </component>
+</project>

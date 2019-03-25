@@ -1,0 +1,8 @@
+prefix=/home/matheus/Projects/pfc/dev/ros_kinetic/install
+
+Name: glog_catkin
+Description: Description of glog_catkin
+Version: 0.3.5
+Cflags: -I/home/matheus/Projects/pfc/dev/ros_kinetic/install/include
+Libs: -L/home/matheus/Projects/pfc/dev/ros_kinetic/install/lib -lglog
+Requires: 

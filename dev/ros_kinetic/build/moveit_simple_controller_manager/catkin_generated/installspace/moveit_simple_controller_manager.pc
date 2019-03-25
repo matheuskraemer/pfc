@@ -1,0 +1,8 @@
+prefix=/home/matheus/Projects/pfc/dev/ros_kinetic/install
+
+Name: moveit_simple_controller_manager
+Description: Description of moveit_simple_controller_manager
+Version: 0.5.2
+Cflags: 
+Libs: -L/home/matheus/Projects/pfc/dev/ros_kinetic/install/lib 
+Requires: moveit_core

@@ -1,0 +1,8 @@
+prefix=/home/matheus/Projects/pfc/dev/ros_kinetic/devel
+
+Name: rotors_description
+Description: Description of rotors_description
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib 
+Requires: 

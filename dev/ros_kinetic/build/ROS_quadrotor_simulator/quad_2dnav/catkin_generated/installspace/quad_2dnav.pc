@@ -1,0 +1,8 @@
+prefix=/home/matheus/Projects/pfc/dev/ros_kinetic/install
+
+Name: quad_2dnav
+Description: Description of quad_2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/matheus/Projects/pfc/dev/ros_kinetic/install/lib 
+Requires: 
