@@ -2,6 +2,9 @@
 
   <arg name="path" default="/home/matheus/.ros/kitchen_dining.binvox.bt" />
 
+
+  <!-- <arg name="path" default="/home/matheus/.ros/substation.bt" /> -->
+
   <node pkg="octomap_server" name="octomap_server" type="octomap_server_node" output="screen" args="$(arg path)" />
 
   <node pkg="quad_octomap" type="octomap_updater.py" name="moveit_octomap_updater" output="screen" />

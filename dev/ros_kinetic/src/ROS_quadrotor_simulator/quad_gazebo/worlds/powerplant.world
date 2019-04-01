@@ -10,11 +10,12 @@
     <include>
       <uri>model://ground_plane</uri>
     </include>
-    <!-- <include>
-      <uri>model://sun</uri>
-    </include> -->
     <include>
-      <uri>model://kitchen_dining</uri>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <static>true</static>
+      <uri>model://substation</uri>
     </include>
   </world>
 </sdf>

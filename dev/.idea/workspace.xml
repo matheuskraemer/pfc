@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496ca164-5bfa-46a9-aa51-7a448674c712" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/config/quad.srdf" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/config/quad.srdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

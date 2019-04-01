@@ -13,7 +13,8 @@
 
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-<!--    <arg name="world_name" value="$(find quad_gazebo)/worlds/willowgarage.world"/> -->
+    <!-- <arg name="world_name" value="$(find quad_gazebo)/worlds/willowgarage.world"/> -->
+    <!-- <arg name="world_name" value="$(find quad_gazebo)/worlds/powerplant.world"/> -->
     <arg name="world_name" value="$(find quad_gazebo)/worlds/kitchen.world"/>
     <!-- more default parameters can be changed here -->
     <arg name="debug" value="false" />
@@ -38,8 +39,15 @@
 
   <!-- Spawn Control Nodes -->
   <group ns="quad">
-    <node name="joy_node" pkg="joy" type="joy_node" />
-    <node name="quad_joystick_interface" pkg="quad_joystick_interface" type="quad_joystick_interface" output="screen"/>
+    <node name="joy_node" pkg="joy" type="joy_node" >
+      <!--<param name="autorepeat_rate" value="100" />-->
+    </node>
+    <node name="quad_joystick_interface" pkg="quad_joystick_interface" type="quad_joystick_interface" output="screen">
+      <param name="axis_roll_" value="0" />
+      <param name="axis_pitch_" value="1" />
+      <param name="axis_thrust_" value="3" />
+      <param name="axis_yaw_" value="2" />
+    </node>
     <node name="waypoint_node" pkg="quad_control" type="waypoint_publisher_node" output="screen"/>
   </group>
   <group ns="quad">
