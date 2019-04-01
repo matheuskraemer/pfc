@@ -15,7 +15,8 @@
     </include>
     <include>
       <static>true</static>
-      <uri>model://substation</uri>
+      <uri>model://substation2</uri>
+      <!-- <pose> 0 0 -15.5 0 0 0</pose> -->
     </include>
   </world>
 </sdf>

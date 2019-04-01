@@ -17,6 +17,8 @@ def cb(msg):
     psw.octomap.header.frame_id = "world"
     psw.octomap.octomap = msg
     psw.octomap.octomap.header.frame_id = "world"
+    psw.octomap.origin.position.z = -15.5
+    psw.octomap.origin.position.y = -10.0
 
     psw.octomap.origin.position.x = 0
     psw.octomap.origin.orientation.w = 1

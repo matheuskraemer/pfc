@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.0">
+  <model name="Substation2">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 -15.5 0 0 0</pose>
+     <collision name="wall1">
+        <geometry>
+          <mesh>
+            <uri>model://substation/model.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual1">
+        <geometry>
+          <mesh>
+            <uri>model://substation2/model.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

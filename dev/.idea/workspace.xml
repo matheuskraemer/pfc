@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="496ca164-5bfa-46a9-aa51-7a448674c712" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/launch/quad_3dnav.launch" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/launch/quad_3dnav.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/resource/moveit.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/resource/moveit.rviz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_gazebo/worlds/powerplant.world" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_gazebo/worlds/powerplant.world" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/launch/launch_map.launch" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/launch/launch_map.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+            <state relative-caret-position="270">
+              <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
               <folding>
                 <element signature="e#22#34#0" expanded="true" />
               </folding>
@@ -105,6 +110,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -162,8 +168,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -187,8 +192,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+        <state relative-caret-position="270">
+          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="e#22#34#0" expanded="true" />
           </folding>
