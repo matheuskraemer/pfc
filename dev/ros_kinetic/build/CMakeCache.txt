@@ -1023,6 +1023,12 @@ quad_3dnav_BINARY_DIR:STATIC=/home/matheus/Projects/pfc/dev/ros_kinetic/build/RO
 quad_3dnav_SOURCE_DIR:STATIC=/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav
 
 //Value Computed by CMake
+quad_collect_BINARY_DIR:STATIC=/home/matheus/Projects/pfc/dev/ros_kinetic/build/ROS_quadrotor_simulator/quad_collect
+
+//Value Computed by CMake
+quad_collect_SOURCE_DIR:STATIC=/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect
+
+//Value Computed by CMake
 quad_control_BINARY_DIR:STATIC=/home/matheus/Projects/pfc/dev/ros_kinetic/build/ROS_quadrotor_simulator/quad_control
 
 //Value Computed by CMake
@@ -1380,7 +1386,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=26
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=27
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -1,7 +1,17 @@
+#!/usr/bin/env python
+
 import rospy
 from sensor_msgs.msg import Joy
+from moveit_msgs.msg import PlanningSceneComponents
+from moveit_msgs.srv import GetPlanningScene
+from os import listdir
+from os.path import isfile, join
+import pickle
+
+path = "/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/lists"
 
 
+positions = list()
 def pointCallback(msg):
     '''
     header:
@@ -13,15 +23,56 @@ def pointCallback(msg):
     axes: [-0.0, -0.0, -0.0, -0.0, 0.0, 0.0]
     buttons: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
     '''
-    print msg.buttons[8]
+
+    # select R2
+    if (msg.buttons[7] == 1):
+        del positions[:]
+        rospy.logwarn("Posicoes resetadas")
+
+    #select button
+    if (msg.buttons[8] == 1):
+        robot_state = getPlanningScene(components).scene.robot_state
+        positions.append(robot_state)
+        #print robot_state.multi_dof_joint_state.transforms[0]
+        rospy.logwarn(robot_state.multi_dof_joint_state.transforms[0])
+
+    #start button
+    if (msg.buttons[9] == 1):
+        if len(positions) == 0:
+            rospy.logwarn("Nenhuma posicao para salvar")
+        else:
+            file_number = len([f for f in listdir(path) if isfile(join(path, f))])
+            with open(path + "/list" + str(file_number) + ".txt", "w") as f:
+                pickle.dump(positions, f, pickle.HIGHEST_PROTOCOL)
+
+            rospy.logwarn("takepoint: Arquivo salvo!")
+            del positions[:]
+
+            '''            
+            with open("lists/list" + str(file_number) + ".txt", "r") as f:
+                dump = pickle.load(f)
+            print len(dump)
+            for trans in dump:
+                print trans.multi_dof_joint_state.transforms[0]
+            '''
+
+
+
 
 rospy.init_node("pickpoint")
 
-rospy.Subscriber("quad/joy", Joy, pointCallback, queue_size=1)
+rospy.Subscriber("/quad/joy", Joy, pointCallback, queue_size=1)
 
-r = rospy.Rate(0.25)
+rospy.wait_for_service('/get_planning_scene')
+getPlanningScene = rospy.ServiceProxy("/get_planning_scene", GetPlanningScene)
+components = PlanningSceneComponents()
+components.components = 2
+
+r = rospy.Rate(1)
 
 while (not rospy.is_shutdown()):
+
+
     r.sleep()
 
 '''

@@ -1605,6 +1605,353 @@ clean: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory ROS_quadrotor_simulator/quad_collect
+
+# Convenience name for "all" pass in the directory.
+ROS_quadrotor_simulator/quad_collect/all:
+
+.PHONY : ROS_quadrotor_simulator/quad_collect/all
+
+# Convenience name for "clean" pass in the directory.
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/clean
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+ROS_quadrotor_simulator/quad_collect/clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+.PHONY : ROS_quadrotor_simulator/quad_collect/clean
+
+# Convenience name for "preinstall" pass in the directory.
+ROS_quadrotor_simulator/quad_collect/preinstall:
+
+.PHONY : ROS_quadrotor_simulator/quad_collect/preinstall
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+.PHONY : roscpp_generate_messages_lisp
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_nodejs: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+
+.PHONY : roscpp_generate_messages_nodejs
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_eus: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+
+.PHONY : roscpp_generate_messages_eus
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_nodejs: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_nodejs
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_eus: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_eus
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+.PHONY : roscpp_generate_messages_py
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# clean rule for target.
+ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory ROS_quadrotor_simulator/quad_description
 
 # Convenience name for "all" pass in the directory.
@@ -1613,16 +1960,7 @@ ROS_quadrotor_simulator/quad_description/all:
 .PHONY : ROS_quadrotor_simulator/quad_description/all
 
 # Convenience name for "clean" pass in the directory.
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/clean
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+ROS_quadrotor_simulator/quad_description/clean:
 
 .PHONY : ROS_quadrotor_simulator/quad_description/clean
 
@@ -1630,326 +1968,6 @@ ROS_quadrotor_simulator/quad_description/clean: ROS_quadrotor_simulator/quad_des
 ROS_quadrotor_simulator/quad_description/preinstall:
 
 .PHONY : ROS_quadrotor_simulator/quad_description/preinstall
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-.PHONY : roscpp_generate_messages_lisp
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_nodejs: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-.PHONY : roscpp_generate_messages_nodejs
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-.PHONY : roscpp_generate_messages_eus
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matheus/Projects/pfc/dev/ros_kinetic/build/CMakeFiles 0
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# clean rule for target.
-ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory ROS_quadrotor_simulator/quad_3dnav
@@ -3037,16 +3055,16 @@ ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interfa
 ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -3127,16 +3145,16 @@ rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -3194,16 +3212,16 @@ rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all:
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -3261,16 +3279,16 @@ rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -3327,16 +3345,16 @@ rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: mav_
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -3411,16 +3429,16 @@ rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: m
 rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -5908,16 +5926,16 @@ ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -6005,16 +6023,16 @@ ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all:
 ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -6102,16 +6120,16 @@ ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: mav_com
 ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -6198,16 +6216,16 @@ ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -6327,16 +6345,16 @@ rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -6435,16 +6453,16 @@ rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_inter
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -6543,16 +6561,16 @@ rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/a
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -6689,16 +6707,16 @@ rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -6797,16 +6815,16 @@ rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/a
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -6905,16 +6923,16 @@ rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.d
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -7013,16 +7031,16 @@ rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
@@ -7153,16 +7171,16 @@ rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: mav_comm/mav
 rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -7463,16 +7481,16 @@ rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: mav_comm/m
 rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/all: mav_comm/planning_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
@@ -9423,16 +9441,16 @@ moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir
 moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: mav_comm/mav_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: mav_comm/mav_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_eus.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/roscpp_generate_messages_py.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_eus.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/roscpp_generate_messages_py.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: ROS_quadrotor_simulator/quad_collect/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_py.dir/all
 moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/all
 moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/all: mav_comm/planning_msgs/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/all

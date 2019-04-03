@@ -1,0 +1,8 @@
+prefix=/home/matheus/Projects/pfc/dev/ros_kinetic/install
+
+Name: quad_collect
+Description: Description of quad_collect
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/matheus/Projects/pfc/dev/ros_kinetic/install/lib 
+Requires: 
