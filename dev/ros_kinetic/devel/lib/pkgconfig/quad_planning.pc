@@ -1,0 +1,8 @@
+prefix=/home/matheus/Projects/pfc/dev/ros_kinetic/devel
+
+Name: quad_planning
+Description: Description of quad_planning
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib 
+Requires: 

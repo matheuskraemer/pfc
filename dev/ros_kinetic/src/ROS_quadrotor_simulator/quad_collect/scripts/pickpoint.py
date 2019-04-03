@@ -43,7 +43,7 @@ def pointCallback(msg):
         else:
             file_number = len([f for f in listdir(path) if isfile(join(path, f))])
             with open(path + "/list" + str(file_number) + ".txt", "w") as f:
-                pickle.dump(positions, f, pickle.HIGHEST_PROTOCOL)
+                pickle.dump(positions, f, 1)
 
             rospy.logwarn("takepoint: Arquivo salvo!")
             del positions[:]

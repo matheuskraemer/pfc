@@ -2024,6 +2024,24 @@ ROS_quadrotor_simulator/quad_octomap/preinstall:
 .PHONY : ROS_quadrotor_simulator/quad_octomap/preinstall
 
 #=============================================================================
+# Directory level rules for directory ROS_quadrotor_simulator/quad_planning
+
+# Convenience name for "all" pass in the directory.
+ROS_quadrotor_simulator/quad_planning/all:
+
+.PHONY : ROS_quadrotor_simulator/quad_planning/all
+
+# Convenience name for "clean" pass in the directory.
+ROS_quadrotor_simulator/quad_planning/clean:
+
+.PHONY : ROS_quadrotor_simulator/quad_planning/clean
+
+# Convenience name for "preinstall" pass in the directory.
+ROS_quadrotor_simulator/quad_planning/preinstall:
+
+.PHONY : ROS_quadrotor_simulator/quad_planning/preinstall
+
+#=============================================================================
 # Directory level rules for directory mav_comm/planning_msgs
 
 # Convenience name for "all" pass in the directory.
