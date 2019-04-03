@@ -3,16 +3,87 @@
   <component name="ChangeListManager">
     <list default="true" id="496ca164-5bfa-46a9-aa51-7a448674c712" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ros_kinetic/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ros_kinetic/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ros_kinetic/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/catkin_generated/order_packages.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/catkin_generated/order_packages.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/catkin_make.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/catkin_make.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/lists/list0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/waypoint_publisher_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/installspace/quad_planning.pc" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/installspace/quad_planning.pc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/installspace/quad_planningConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/installspace/quad_planningConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/package.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/package.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/pkg.develspace.context.pc.py" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/pkg.develspace.context.pc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/pkg.installspace.context.pc.py" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/pkg.installspace.context.pc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/stamps/quad_planning/package.xml.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/catkin_generated/stamps/quad_planning/package.xml.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_eus.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_lisp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_nodejs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_py.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/action_controller/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/glog_catkin/CMakeFiles/glog_src.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/glog_catkin/CMakeFiles/glog_src.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/gtest/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/gtest/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/gtest/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/gtest/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/gtest/gtest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/gtest/gtest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/gtest/gtest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/gtest/gtest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_lisp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_nodejs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_py.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_eus.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_lisp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager_generate_messages_eus.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/roll_pitch_yawrate_thrust_controller_node.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/gazebo_pose_publisher.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/gazebo_pose_publisher.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/waypoint_publisher.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_bag_plugin.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_controller_interface.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_imu_plugin.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_motor_model.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_motor_model.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_multirotor_base_plugin.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_octomap_plugin.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_odometry_plugin.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/rotors_gazebo_wind_plugin.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_joy_interface/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_joy_interface/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/build/rotors_simulator/rotors_joy_interface/CMakeFiles/rotors_joy_interface.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/devel/lib/pkgconfig/quad_planning.pc" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/devel/lib/pkgconfig/quad_planning.pc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/devel/share/quad_planning/cmake/quad_planningConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/devel/share/quad_planning/cmake/quad_planningConfig.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/pickpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/pickpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +91,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dev" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="375">
+              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
               <folding>
                 <element signature="e#22#34#0" expanded="true" />
               </folding>
@@ -37,8 +111,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/pickpoint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="69" />
+            <state relative-caret-position="4740">
+              <caret line="322" selection-start-line="322" selection-end-line="322" selection-end-column="18" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="320" column="19" lean-forward="true" selection-start-line="320" selection-start-column="19" selection-end-line="320" selection-end-column="19" />
+            <state relative-caret-position="510">
+              <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
               <folding>
                 <element signature="e#23#35#0" expanded="true" />
               </folding>
@@ -69,9 +146,18 @@
       <find>pub</find>
       <find>cb</find>
       <find>teste</find>
-      <find>print</find>
       <find>lists</find>
       <find>HI</find>
+      <find>positions</find>
+      <find>position</find>
+      <find>dump</find>
+      <find>stamp</find>
+      <find>plannin</find>
+      <find>send_goal</find>
+      <find>components</find>
+      <find>print</find>
+      <find>dji</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,18 +166,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py" />
         <option value="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/lists/teste.txt" />
         <option value="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/pickpoint.py" />
+        <option value="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py" />
         <option value="$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="928" />
-    <option name="height" value="1084" />
+    <option name="x" value="76" />
+    <option name="y" value="496" />
+    <option name="width" value="926" />
+    <option name="height" value="584" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -271,12 +357,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499002" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.500998" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.500998" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945414" weight="0.27930683" />
@@ -284,10 +369,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49945414" visible="true" weight="0.19571866" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32925585" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49945414" weight="0.33027524" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054586" side_tool="true" weight="0.3282365" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32925585" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="375">
+          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding>
             <element signature="e#22#34#0" expanded="true" />
           </folding>
@@ -334,15 +419,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/pickpoint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="69" />
+        <state relative-caret-position="4740">
+          <caret line="322" selection-start-line="322" selection-end-line="322" selection-end-column="18" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="320" column="19" lean-forward="true" selection-start-line="320" selection-start-column="19" selection-end-line="320" selection-end-column="19" />
+        <state relative-caret-position="510">
+          <caret line="64" column="57" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
           <folding>
             <element signature="e#23#35#0" expanded="true" />
           </folding>

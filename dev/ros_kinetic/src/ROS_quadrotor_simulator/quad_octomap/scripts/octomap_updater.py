@@ -92,7 +92,7 @@ while(not rospy.is_shutdown()):
         link_new.padding = 0.5
         link_padding.append(link_new)
 
-    mapMsg.link_padding = link_padding
+    #mapMsg.link_padding = link_padding
 
     if (flag is not None):
 

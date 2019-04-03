@@ -21,6 +21,7 @@ d37f6b6591f0c2c18cf29abb897d8de5 /home/matheus/Projects/pfc/dev/ros_kinetic/deve
 0ecd1a34b7f7d429dd5ccb33c42b3bb7 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/include/planning_msgs/WayPoint.h
 c06bf303995297eb05c2a6eeb372ee78 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/include/planning_msgs/WayPointArray.h
 ce80fc7a8dd422f62befd939ad0e5d12 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/include/planning_msgs/WaypointType.h
+d26b40eb34ed783dd65423dd66fa2b80 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/include/quad_planning/DJIanswer.h
 f5354fc9eccd4705dc9a45857025d104 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib/python2.7/dist-packages/action_controller/msg/_MultiDofFollowJointTrajectoryAction.py
 6c6579a45bd0a4a3b1789fb60162db2c /home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib/python2.7/dist-packages/action_controller/msg/_MultiDofFollowJointTrajectoryActionFeedback.py
 65fcfb5dae192a1a509addd3cce9e284 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib/python2.7/dist-packages/action_controller/msg/_MultiDofFollowJointTrajectoryActionGoal.py
@@ -46,6 +47,8 @@ d996e1792ab93323d1cffd26e248841d /home/matheus/Projects/pfc/dev/ros_kinetic/deve
 c488c8d25b7a709e79413aafa2ed40da /home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib/python2.7/dist-packages/planning_msgs/srv/_Octomap.py
 c683726062e36efbfd6ecc2cec7f5fcd /home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib/python2.7/dist-packages/planning_msgs/srv/_PlannerService.py
 1adecf4a5d8f10f472179ade32b43ae7 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib/python2.7/dist-packages/planning_msgs/srv/__init__.py
+7923def6662ff1515fcd5f4850adc616 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib/python2.7/dist-packages/quad_planning/msg/_DJIanswer.py
+cc6fe9927590b7ab5ef01a2214c80671 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/lib/python2.7/dist-packages/quad_planning/msg/__init__.py
 027bd98a55b2d502e86894244ca81feb /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/common-lisp/ros/action_controller/msg/MultiDofFollowJointTrajectoryAction.lisp
 53aa501bda92bf6d07c2f034031ea517 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/common-lisp/ros/action_controller/msg/MultiDofFollowJointTrajectoryActionFeedback.lisp
 6ace0ff0ac907e5c794cb18e5a31aaa6 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/common-lisp/ros/action_controller/msg/MultiDofFollowJointTrajectoryActionGoal.lisp
@@ -67,6 +70,7 @@ aa70b28d2c615b49472d9891e4b3d7b9 /home/matheus/Projects/pfc/dev/ros_kinetic/deve
 d0b8767a6a6211fe0df3be8dddcc0783 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/common-lisp/ros/planning_msgs/msg/WaypointType.lisp
 d28972b42be1a031a8b39acac2ce43a6 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/common-lisp/ros/planning_msgs/srv/Octomap.lisp
 6ef6793771d749f16f84ee6efca7fb59 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/common-lisp/ros/planning_msgs/srv/PlannerService.lisp
+b796705c0085cb98b93f9c486cae543c /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/common-lisp/ros/quad_planning/msg/DJIanswer.lisp
 8baaaa65175502f757a321ba3fbc3670 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/gennodejs/ros/action_controller/msg/MultiDofFollowJointTrajectoryAction.js
 1592cefa63ad8efc4236a0d5297cdf76 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/gennodejs/ros/action_controller/msg/MultiDofFollowJointTrajectoryActionFeedback.js
 5e844d6e5c9c6fb866f0db3a15dfeca8 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/gennodejs/ros/action_controller/msg/MultiDofFollowJointTrajectoryActionGoal.js
@@ -88,6 +92,7 @@ c277bb4732fbc97235e08fabd6ea7a10 /home/matheus/Projects/pfc/dev/ros_kinetic/deve
 ed481cff41c38893c9ade685d9dc058f /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/gennodejs/ros/planning_msgs/msg/WaypointType.js
 c5cbb448da7cb047ecdde57cf6053c4a /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/gennodejs/ros/planning_msgs/srv/Octomap.js
 659dd88e59693d53156e1380dc610501 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/gennodejs/ros/planning_msgs/srv/PlannerService.js
+17247c38a0dcede34c3887416e97857f /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/gennodejs/ros/quad_planning/msg/DJIanswer.js
 452bf555700a4ae38b16f367c58785b9 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/roseus/ros/action_controller/manifest.l
 61937a6d319294d51a6199f70247dd55 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/roseus/ros/action_controller/msg/MultiDofFollowJointTrajectoryAction.l
 a919e1c596d70f992ea786bfd6ba5e9a /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/roseus/ros/action_controller/msg/MultiDofFollowJointTrajectoryActionFeedback.l
@@ -113,7 +118,15 @@ b23c543e48df7accbb496348680ab583 /home/matheus/Projects/pfc/dev/ros_kinetic/deve
 4dfe1b10b2c6d46c4dba375266337184 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/roseus/ros/planning_msgs/msg/WaypointType.l
 aad2d2812458be9d41dbaa784144646e /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/roseus/ros/planning_msgs/srv/Octomap.l
 586fc8bc6b7b1557d192aa2f8a7916de /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/roseus/ros/planning_msgs/srv/PlannerService.l
+ef1ecf42d29cfcd1af03e02a48a703e4 /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/roseus/ros/quad_planning/manifest.l
+96259d11014774b34963e6ffed21764f /home/matheus/Projects/pfc/dev/ros_kinetic/devel/share/roseus/ros/quad_planning/msg/DJIanswer.l
 bf9fa594aa0932ae93d709522c6c897a CMakeFiles/clean_test_results
+df3a56b9e89a5af83768b4e984d75e96 ROS_quadrotor_simulator/quad_planning/CMakeFiles/_quad_planning_generate_messages_check_deps_DJIanswer
+35bd75e6dd7951b9917a9fec29336e0c ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_cpp
+35bd75e6dd7951b9917a9fec29336e0c ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_eus
+35bd75e6dd7951b9917a9fec29336e0c ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_lisp
+35bd75e6dd7951b9917a9fec29336e0c ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_nodejs
+35bd75e6dd7951b9917a9fec29336e0c ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_py
 1ede5423371b16ebc64eac47f2df46f1 action_controller/CMakeFiles/_action_controller_generate_messages_check_deps_MultiDofFollowJointTrajectoryAction
 91832fae8664ce93ab71ec01665feb86 action_controller/CMakeFiles/_action_controller_generate_messages_check_deps_MultiDofFollowJointTrajectoryActionFeedback
 1b91580edca17c70f65bbc63e93da597 action_controller/CMakeFiles/_action_controller_generate_messages_check_deps_MultiDofFollowJointTrajectoryActionGoal

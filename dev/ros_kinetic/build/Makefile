@@ -816,6 +816,162 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named quad_planning_genpy
+
+# Build rule for target.
+quad_planning_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_genpy
+.PHONY : quad_planning_genpy
+
+# fast build rule for target.
+quad_planning_genpy/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_genpy.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_genpy.dir/build
+.PHONY : quad_planning_genpy/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_gencpp
+
+# Build rule for target.
+quad_planning_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_gencpp
+.PHONY : quad_planning_gencpp
+
+# fast build rule for target.
+quad_planning_gencpp/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_gencpp.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_gencpp.dir/build
+.PHONY : quad_planning_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_generate_messages_lisp
+
+# Build rule for target.
+quad_planning_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_generate_messages_lisp
+.PHONY : quad_planning_generate_messages_lisp
+
+# fast build rule for target.
+quad_planning_generate_messages_lisp/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_lisp.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_lisp.dir/build
+.PHONY : quad_planning_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named _quad_planning_generate_messages_check_deps_DJIanswer
+
+# Build rule for target.
+_quad_planning_generate_messages_check_deps_DJIanswer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _quad_planning_generate_messages_check_deps_DJIanswer
+.PHONY : _quad_planning_generate_messages_check_deps_DJIanswer
+
+# fast build rule for target.
+_quad_planning_generate_messages_check_deps_DJIanswer/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/_quad_planning_generate_messages_check_deps_DJIanswer.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/_quad_planning_generate_messages_check_deps_DJIanswer.dir/build
+.PHONY : _quad_planning_generate_messages_check_deps_DJIanswer/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_gennodejs
+
+# Build rule for target.
+quad_planning_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_gennodejs
+.PHONY : quad_planning_gennodejs
+
+# fast build rule for target.
+quad_planning_gennodejs/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_gennodejs.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_gennodejs.dir/build
+.PHONY : quad_planning_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_generate_messages_py
+
+# Build rule for target.
+quad_planning_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_generate_messages_py
+.PHONY : quad_planning_generate_messages_py
+
+# fast build rule for target.
+quad_planning_generate_messages_py/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_py.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_py.dir/build
+.PHONY : quad_planning_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_generate_messages_cpp
+
+# Build rule for target.
+quad_planning_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_generate_messages_cpp
+.PHONY : quad_planning_generate_messages_cpp
+
+# fast build rule for target.
+quad_planning_generate_messages_cpp/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_cpp.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_cpp.dir/build
+.PHONY : quad_planning_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_generate_messages
+
+# Build rule for target.
+quad_planning_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_generate_messages
+.PHONY : quad_planning_generate_messages
+
+# fast build rule for target.
+quad_planning_generate_messages/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages.dir/build
+.PHONY : quad_planning_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_generate_messages_eus
+
+# Build rule for target.
+quad_planning_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_generate_messages_eus
+.PHONY : quad_planning_generate_messages_eus
+
+# fast build rule for target.
+quad_planning_generate_messages_eus/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_eus.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_eus.dir/build
+.PHONY : quad_planning_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_geneus
+
+# Build rule for target.
+quad_planning_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_geneus
+.PHONY : quad_planning_geneus
+
+# fast build rule for target.
+quad_planning_geneus/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_geneus.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_geneus.dir/build
+.PHONY : quad_planning_geneus/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_genlisp
+
+# Build rule for target.
+quad_planning_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_genlisp
+.PHONY : quad_planning_genlisp
+
+# fast build rule for target.
+quad_planning_genlisp/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_genlisp.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_genlisp.dir/build
+.PHONY : quad_planning_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named quad_planning_generate_messages_nodejs
+
+# Build rule for target.
+quad_planning_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 quad_planning_generate_messages_nodejs
+.PHONY : quad_planning_generate_messages_nodejs
+
+# fast build rule for target.
+quad_planning_generate_messages_nodejs/fast:
+	$(MAKE) -f ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_nodejs.dir/build.make ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_nodejs.dir/build
+.PHONY : quad_planning_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named planning_msgs_generate_messages_py
 
 # Build rule for target.
@@ -3309,6 +3465,18 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... quad_planning_genpy"
+	@echo "... quad_planning_gencpp"
+	@echo "... quad_planning_generate_messages_lisp"
+	@echo "... _quad_planning_generate_messages_check_deps_DJIanswer"
+	@echo "... quad_planning_gennodejs"
+	@echo "... quad_planning_generate_messages_py"
+	@echo "... quad_planning_generate_messages_cpp"
+	@echo "... quad_planning_generate_messages"
+	@echo "... quad_planning_generate_messages_eus"
+	@echo "... quad_planning_geneus"
+	@echo "... quad_planning_genlisp"
+	@echo "... quad_planning_generate_messages_nodejs"
 	@echo "... planning_msgs_generate_messages_py"
 	@echo "... planning_msgs_gennodejs"
 	@echo "... planning_msgs_generate_messages_nodejs"

@@ -1,0 +1,2 @@
+int32 position_reached
+int32 image_processing_result

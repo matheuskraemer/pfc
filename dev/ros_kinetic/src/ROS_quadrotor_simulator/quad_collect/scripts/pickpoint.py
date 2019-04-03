@@ -9,10 +9,12 @@ from os.path import isfile, join
 import pickle
 
 path = "/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/lists"
+nivel = 0
 
-
-positions = list()
+positions = list(list())
 def pointCallback(msg):
+    global nivel
+
     '''
     header:
       seq: 603
@@ -24,17 +26,43 @@ def pointCallback(msg):
     buttons: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
     '''
 
+
+    # seta esquerda
+    if (msg.axes[4] == 1):
+        pass
+
+    # dir direita
+    if (msg.axes[4] == -1):
+        pass
+
+        # seta cima
+    if (msg.axes[5] == 1):
+        nivel += 1
+        rospy.logwarn("Nivel: " + str(nivel + 1))
+
+    # dir baixo
+    if (msg.axes[5] == -1):
+        if nivel == 0:
+            pass
+        else:
+            nivel += -1
+            rospy.logwarn("Nivel: " + str(nivel + 1))
+
     # select R2
     if (msg.buttons[7] == 1):
         del positions[:]
         rospy.logwarn("Posicoes resetadas")
 
+
     #select button
     if (msg.buttons[8] == 1):
+
         robot_state = getPlanningScene(components).scene.robot_state
-        positions.append(robot_state)
+        positions.append([robot_state, nivel])
         #print robot_state.multi_dof_joint_state.transforms[0]
+        rospy.logwarn("Posicao de nivel " + str(nivel+1))
         rospy.logwarn(robot_state.multi_dof_joint_state.transforms[0])
+
 
     #start button
     if (msg.buttons[9] == 1):
@@ -61,7 +89,7 @@ def pointCallback(msg):
 
 rospy.init_node("pickpoint")
 
-rospy.Subscriber("/quad/joy", Joy, pointCallback, queue_size=1)
+rospy.Subscriber("quad/joy", Joy, pointCallback, queue_size=1)
 
 rospy.wait_for_service('/get_planning_scene')
 getPlanningScene = rospy.ServiceProxy("/get_planning_scene", GetPlanningScene)
@@ -71,7 +99,6 @@ components.components = 2
 r = rospy.Rate(1)
 
 while (not rospy.is_shutdown()):
-
 
     r.sleep()
 
