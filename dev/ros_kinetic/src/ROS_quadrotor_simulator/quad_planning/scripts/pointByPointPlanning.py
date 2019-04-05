@@ -8,6 +8,14 @@ from moveit_msgs.srv import GetPlanningScene
 from quad_planning.msg import DJIanswer
 import actionlib
 
+x_s = 24
+y_s = 80
+z_s = 20
+
+x_c = 9
+y_c = 22
+z_c = 10
+
 flag = 0
 flag_dji = 0
 flag_dji_adaptative = 0
@@ -41,6 +49,7 @@ dump.insert(0, [robot_state, 0])
 
 
 def DJICallback(msg):
+    print "tse"
     global flag_dji, flag_dji_adaptative
     flag_dji = msg.position_reached
     flag_dji_adaptative = msg.image_processing_result
@@ -59,12 +68,13 @@ def send_goal(current, goal):
     goal_msg.goal_id = "teste"
 
     goal_msg.goal.request.workspace_parameters.header.frame_id = "/world"
-    goal_msg.goal.request.workspace_parameters.min_corner.x = -2500
-    goal_msg.goal.request.workspace_parameters.min_corner.y = -2500
-    goal_msg.goal.request.workspace_parameters.min_corner.z = -2500
-    goal_msg.goal.request.workspace_parameters.max_corner.x = 2500
-    goal_msg.goal.request.workspace_parameters.max_corner.y = 2500
-    goal_msg.goal.request.workspace_parameters.max_corner.z = 2500
+    goal_msg.goal.request.workspace_parameters.min_corner.x = x_c - (x_s/2) #-30
+    goal_msg.goal.request.workspace_parameters.min_corner.y = y_c - (y_s/2)#-30
+    goal_msg.goal.request.workspace_parameters.min_corner.z = z_c - (z_s/2)#-30
+    goal_msg.goal.request.workspace_parameters.max_corner.x = (x_s/2) + x_c#30
+    goal_msg.goal.request.workspace_parameters.max_corner.y = (y_s/2) + y_c#30
+    goal_msg.goal.request.workspace_parameters.max_corner.z = (z_s/2) + z_c#30
+
 
     goal_msg.goal.request.start_state.joint_state.header.frame_id = "/world"
     goal_msg.goal.request.start_state.joint_state.name = ["quad/ground_truth/odometry_sensorgt_joint", "quad/imu_joint",
@@ -81,6 +91,7 @@ def send_goal(current, goal):
     rot_z = JointConstraint()
     rot_w = JointConstraint()
 
+    trans_x.weight = 1
     trans_x.weight = 1
     trans_x.tolerance_above = 0.0001
     trans_x.tolerance_below = 0.0001

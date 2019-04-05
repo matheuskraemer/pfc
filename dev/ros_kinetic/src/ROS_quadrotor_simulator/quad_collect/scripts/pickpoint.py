@@ -3,7 +3,7 @@
 import rospy
 from sensor_msgs.msg import Joy
 from moveit_msgs.msg import PlanningSceneComponents
-from moveit_msgs.srv import GetPlanningScene
+from moveit_msgs.srv import GetPlanningScene, GetStateValidityRequest, GetStateValidity
 from os import listdir
 from os.path import isfile, join
 import pickle
@@ -58,10 +58,20 @@ def pointCallback(msg):
     if (msg.buttons[8] == 1):
 
         robot_state = getPlanningScene(components).scene.robot_state
-        positions.append([robot_state, nivel])
-        #print robot_state.multi_dof_joint_state.transforms[0]
-        rospy.logwarn("Posicao de nivel " + str(nivel+1))
-        rospy.logwarn(robot_state.multi_dof_joint_state.transforms[0])
+
+        state = GetStateValidityRequest()
+        state.robot_state = robot_state
+        state.group_name = "Quad_base"
+
+        validityResponse = getValidity(state)
+
+        if (validityResponse.valid):
+            positions.append([robot_state, nivel])
+            #print robot_state.multi_dof_joint_state.transforms[0]
+            rospy.logwarn("Posicao de nivel " + str(nivel+1))
+            rospy.logwarn(robot_state.multi_dof_joint_state.transforms[0])
+        else:
+            rospy.logwarn("Posicao nao valida!")
 
 
     #start button
@@ -86,7 +96,6 @@ def pointCallback(msg):
 
 
 
-
 rospy.init_node("pickpoint")
 
 rospy.Subscriber("quad/joy", Joy, pointCallback, queue_size=1)
@@ -95,6 +104,9 @@ rospy.wait_for_service('/get_planning_scene')
 getPlanningScene = rospy.ServiceProxy("/get_planning_scene", GetPlanningScene)
 components = PlanningSceneComponents()
 components.components = 2
+
+
+getValidity = rospy.ServiceProxy("/check_state_validity", GetStateValidity)
 
 r = rospy.Rate(1)
 
