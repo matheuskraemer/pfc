@@ -45,7 +45,7 @@ Visualization Manager:
       MoveIt_Allow_Replanning: false
       MoveIt_Allow_Sensor_Positioning: false
       MoveIt_Goal_Tolerance: 0.5
-      MoveIt_Planning_Attempts: 10
+      MoveIt_Planning_Attempts: 1
       MoveIt_Planning_Time: 5
       MoveIt_Use_Constraint_Aware_IK: true
       MoveIt_Warehouse_Host: 127.0.0.1
@@ -218,7 +218,7 @@ Visualization Manager:
         Show Robot Collision: false
         Show Robot Visual: true
       Value: true
-      Velocity_Scaling_Factor: 0.10000000000000001
+      Velocity_Scaling_Factor: 1
     - Class: rviz/Image
       Enabled: false
       Image Topic: /quad/camera_/camera/image_raw
@@ -254,18 +254,18 @@ Visualization Manager:
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.27163887
-        Y: -8.56966782
-        Z: 7.84056647e-06
+        X: 7.54360628
+        Y: 13.8917179
+        Z: 8.28164866e-06
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.0500000007
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.73979646
+      Pitch: 0.29479605
       Target Frame: base_link
       Value: XYOrbit (rviz)
-      Yaw: 4.08311367
+      Yaw: 0.144930407
     Saved: ~
 Window Geometry:
   Displays:

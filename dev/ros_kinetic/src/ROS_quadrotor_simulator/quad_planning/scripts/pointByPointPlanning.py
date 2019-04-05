@@ -8,13 +8,19 @@ from moveit_msgs.srv import GetPlanningScene
 from quad_planning.msg import DJIanswer
 import actionlib
 
+
+'''
 x_s = 24
 y_s = 80
 z_s = 20
-
 x_c = 9
 y_c = 22
 z_c = 10
+'''
+
+x_off = 5
+y_off = 5
+z_off = 5
 
 flag = 0
 flag_dji = 0
@@ -67,13 +73,6 @@ def send_goal(current, goal):
 
     goal_msg.goal_id = "teste"
 
-    goal_msg.goal.request.workspace_parameters.header.frame_id = "/world"
-    goal_msg.goal.request.workspace_parameters.min_corner.x = x_c - (x_s/2) #-30
-    goal_msg.goal.request.workspace_parameters.min_corner.y = y_c - (y_s/2)#-30
-    goal_msg.goal.request.workspace_parameters.min_corner.z = z_c - (z_s/2)#-30
-    goal_msg.goal.request.workspace_parameters.max_corner.x = (x_s/2) + x_c#30
-    goal_msg.goal.request.workspace_parameters.max_corner.y = (y_s/2) + y_c#30
-    goal_msg.goal.request.workspace_parameters.max_corner.z = (z_s/2) + z_c#30
 
 
     goal_msg.goal.request.start_state.joint_state.header.frame_id = "/world"
@@ -163,6 +162,41 @@ def send_goal(current, goal):
     goal_msg.goal.planning_options.replan = False
 
 
+    x_c = current.multi_dof_joint_state.transforms[0].translation.x + (goal.multi_dof_joint_state.transforms[0].translation.x - current.multi_dof_joint_state.transforms[0].translation.x)/2
+    y_c = current.multi_dof_joint_state.transforms[0].translation.y + (goal.multi_dof_joint_state.transforms[0].translation.y - current.multi_dof_joint_state.transforms[0].translation.y)/2
+    z_c = current.multi_dof_joint_state.transforms[0].translation.z + (goal.multi_dof_joint_state.transforms[0].translation.z - current.multi_dof_joint_state.transforms[0].translation.z)/2
+
+    diff_x = abs(goal.multi_dof_joint_state.transforms[0].translation.x - current.multi_dof_joint_state.transforms[0].translation.x)
+    diff_y = abs(goal.multi_dof_joint_state.transforms[0].translation.y - current.multi_dof_joint_state.transforms[0].translation.y)
+    diff_z = abs(goal.multi_dof_joint_state.transforms[0].translation.z - current.multi_dof_joint_state.transforms[0].translation.z)
+
+    goal_msg.goal.request.workspace_parameters.header.frame_id = "/world"
+    goal_msg.goal.request.workspace_parameters.min_corner.x = x_c - (diff_x / 2) - x_off # -30
+    goal_msg.goal.request.workspace_parameters.min_corner.y = y_c - (diff_y / 2) - y_off # -30
+    goal_msg.goal.request.workspace_parameters.min_corner.z = 0 # z_c - (diff_z / 2) - z_off # -30
+    goal_msg.goal.request.workspace_parameters.max_corner.x = x_c + (diff_x / 2) + x_off # 30
+    goal_msg.goal.request.workspace_parameters.max_corner.y = y_c + (diff_y / 2) + y_off # 30
+    goal_msg.goal.request.workspace_parameters.max_corner.z = z_c + (diff_z / 2) + z_off # 30
+
+
+    print x_c
+    print y_c
+    print z_c
+
+    print diff_x
+    print diff_y
+    print diff_z
+    print goal_msg.goal.request.workspace_parameters
+
+    '''
+    goal_msg.goal.request.workspace_parameters.header.frame_id = "/world"
+    goal_msg.goal.request.workspace_parameters.min_corner.x = x_c - (x_s / 2)  # -30
+    goal_msg.goal.request.workspace_parameters.min_corner.y = y_c - (y_s / 2)  # -30
+    goal_msg.goal.request.workspace_parameters.min_corner.z = z_c - (z_s / 2)  # -30
+    goal_msg.goal.request.workspace_parameters.max_corner.x = (x_s / 2) + x_c  # 30
+    goal_msg.goal.request.workspace_parameters.max_corner.y = (y_s / 2) + y_c  # 30
+    goal_msg.goal.request.workspace_parameters.max_corner.z = (z_s / 2) + z_c  # 30
+    '''
     print "Enviou posicao:"
     # print goal_msg.goal
     action = MoveGroupGoal
