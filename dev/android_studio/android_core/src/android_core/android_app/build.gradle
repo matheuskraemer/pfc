@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    //buildToolsVersion "25.0.0"
+
+    defaultConfig {
+
+        /*ndk {
+            abiFilters 'armeabi-v7a'
+        }*/
+        applicationId "com.dji.simulatorDemo"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+
+    }
+    /*buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }*/
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+
+    packagingOptions{
+        doNotStrip "*/*/libdjivideo.so"
+        doNotStrip "*/*/libSDKRelativeJNI.so"
+        doNotStrip "*/*/libFlyForbid.so"
+        doNotStrip "*/*/libduml_vision_bokeh.so"
+        doNotStrip "*/*/libyuv2.so"
+        doNotStrip "*/*/libGroudStation.so"
+        doNotStrip "*/*/libFRCorkscrew.so"
+        doNotStrip "*/*/libUpgradeVerify.so"
+        doNotStrip "*/*/libFR.so"
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:28.0.0'
+    compile 'com.android.support:multidex:1.0.1'
+
+
+    compile ('com.dji:dji-sdk:4.9')
+    provided ('com.dji:dji-sdk-provided:4.9')
+
+    compile 'org.ros.rosjava_core:rosjava_tutorial_pubsub:[0.3,0.4)'
+    compile project(":android_core_components")
+
+}

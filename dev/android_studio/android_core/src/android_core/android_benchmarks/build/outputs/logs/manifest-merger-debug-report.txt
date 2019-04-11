@@ -1,0 +1,214 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:1-30:12
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-37:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3ec9a888b1d3203b404a33e56fc9ef53/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/a72c199e5bdf9043c219ac1f920c57e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f94886aea161b0656f475dd9ce9546b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/afd4006a94d8c102ed07a13b743a7b38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e62705a411247724b900e4bef03f6d8f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ab1d183eb2004d4e1909f48079d2422f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d084e01505e904c1c6e67c56802c20b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/dbaf8938365e8389f20b228e2f965dd2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/82e310076b7f3de156f058630e5d499a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/df45ae225a945e62992d2d75ab397c0d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9110ad305e92470549fce7217d7d8f71/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f586018dc69169dae6fc2c27130a7353/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/291d65b582d83ab2428a909e0146d216/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3be1f7f028301a745ba1765945ba81bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/135564e3e3ed6ea280822f1726f636f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c6ab6c34eb4d51b1ba7041ac0f717b55/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/83d682bd4b0825c537a07326a5573004/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ec936f9ca09046da62fcd309b6cb38a4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/29f0973ab37f365de3a632e41f856738/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/22b9e50714d6b2b8f3e448f5c72167b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3ccfa66153133fb8846105a1f187dd15/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/71cd991daf894ad8059997b7899cd645/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/4ed5652211ec66572e540c10472cb009/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d04345bcc582f1fcb14da16ddfce0f80/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d3dbd5b797801b1e34815d9981204a66/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3073f3bd0f9b7ae1b56bec521441c224/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/216959f74a271192276c83e888f9242b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/32a6926901103d36107b44c0fa52982c/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:70-114
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:5:5-68
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:5-68
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:6:5-77
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:5-77
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:5-77
+	android:name
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:6:22-74
+application
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:8:5-28:19
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:19:5-35:19
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:19:5-35:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/83d682bd4b0825c537a07326a5573004/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/83d682bd4b0825c537a07326a5573004/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ec936f9ca09046da62fcd309b6cb38a4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ec936f9ca09046da62fcd309b6cb38a4/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/83d682bd4b0825c537a07326a5573004/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:9:9-36
+	android:allowBackup
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:11:9-35
+activity#org.ros.android.android_benchmarks.MainActivity
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:13:13-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:18:27-74
+activity#org.ros.android.MasterChooser
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:21:9-66
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:22:9-26:54
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:22:9-26:54
+	android:label
+		ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:24:13-45
+	android:launchMode
+		ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:25:13-42
+	android:theme
+		ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:26:13-51
+	android:name
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:21:19-63
+service#org.ros.android.NodeMainExecutorService
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:23:9-27:19
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:28:9-34:19
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:28:9-34:19
+	tools:ignore
+		ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:23:18-72
+intent-filter#action:name:org.ros.android.NodeMainExecutorService
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:24:13-26:29
+action#org.ros.android.NodeMainExecutorService
+ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:25:17-82
+	android:name
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml:25:25-79
+uses-sdk
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-10:41
+MERGED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3ec9a888b1d3203b404a33e56fc9ef53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3ec9a888b1d3203b404a33e56fc9ef53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/a72c199e5bdf9043c219ac1f920c57e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/a72c199e5bdf9043c219ac1f920c57e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f94886aea161b0656f475dd9ce9546b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f94886aea161b0656f475dd9ce9546b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/afd4006a94d8c102ed07a13b743a7b38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/afd4006a94d8c102ed07a13b743a7b38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e62705a411247724b900e4bef03f6d8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e62705a411247724b900e4bef03f6d8f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ab1d183eb2004d4e1909f48079d2422f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/ab1d183eb2004d4e1909f48079d2422f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d084e01505e904c1c6e67c56802c20b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d084e01505e904c1c6e67c56802c20b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/dbaf8938365e8389f20b228e2f965dd2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/dbaf8938365e8389f20b228e2f965dd2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/82e310076b7f3de156f058630e5d499a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/82e310076b7f3de156f058630e5d499a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/df45ae225a945e62992d2d75ab397c0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/df45ae225a945e62992d2d75ab397c0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9110ad305e92470549fce7217d7d8f71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9110ad305e92470549fce7217d7d8f71/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f586018dc69169dae6fc2c27130a7353/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f586018dc69169dae6fc2c27130a7353/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/291d65b582d83ab2428a909e0146d216/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/291d65b582d83ab2428a909e0146d216/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3be1f7f028301a745ba1765945ba81bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/3be1f7f028301a745ba1765945ba81bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/135564e3e3ed6ea280822f1726f636f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/135564e3e3ed6ea280822f1726f636f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c6ab6c34eb4d51b1ba7041ac0f717b55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c6ab6c34eb4d51b1ba7041ac0f717b55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/83d682bd4b0825c537a07326a5573004/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/83d682bd4b0825c537a07326a5573004/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ec936f9ca09046da62fcd309b6cb38a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ec936f9ca09046da62fcd309b6cb38a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/29f0973ab37f365de3a632e41f856738/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/29f0973ab37f365de3a632e41f856738/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/22b9e50714d6b2b8f3e448f5c72167b0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/22b9e50714d6b2b8f3e448f5c72167b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3ccfa66153133fb8846105a1f187dd15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3ccfa66153133fb8846105a1f187dd15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/71cd991daf894ad8059997b7899cd645/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/71cd991daf894ad8059997b7899cd645/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/4ed5652211ec66572e540c10472cb009/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/4ed5652211ec66572e540c10472cb009/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d04345bcc582f1fcb14da16ddfce0f80/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d04345bcc582f1fcb14da16ddfce0f80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d3dbd5b797801b1e34815d9981204a66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/matheus/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d3dbd5b797801b1e34815d9981204a66/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3073f3bd0f9b7ae1b56bec521441c224/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3073f3bd0f9b7ae1b56bec521441c224/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/216959f74a271192276c83e888f9242b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/216959f74a271192276c83e888f9242b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/32a6926901103d36107b44c0fa52982c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/matheus/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/32a6926901103d36107b44c0fa52982c/AndroidManifest.xml:20:5-44
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+		ADDED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+		INJECTED from /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from [:android_core_components] /home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_core_components/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:22-75
