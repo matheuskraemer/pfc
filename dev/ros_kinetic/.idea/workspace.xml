@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48b47efa-bcac-4b2f-b448-c6ec69e5dff0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_acm_serial/android_acm_serial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_acm_serial/android_acm_serial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_acm_serial/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_acm_serial/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/android_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/android_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_benchmarks/android_benchmarks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_benchmarks/android_benchmarks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_benchmarks/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_benchmarks/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/android_core_components.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/android_core_components.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView$2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView.class" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/src/org/ros/android/view/RosTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/src/org/ros/android/view/RosTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_camera/android_tutorial_camera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_camera/android_tutorial_camera.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_camera/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_camera/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_image_transport/android_tutorial_image_transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_image_transport/android_tutorial_image_transport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_image_transport/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_image_transport/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_map_viewer/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_map_viewer/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_pubsub/android_tutorial_pubsub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_pubsub/android_tutorial_pubsub.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_pubsub/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_pubsub/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_teleop/android_tutorial_teleop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_teleop/android_tutorial_teleop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_teleop/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_teleop/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_3dnav/launch/quad_3dnav.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_3dnav/launch/quad_3dnav.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DJICallback</find>
+      <find>flag_dji_adaptative</find>
+      <find>enviou</find>
+      <find>MoveGroupResult</find>
+      <find>send</find>
+      <find>result</find>
+      <find>robot_state</find>
+      <find>r.slee</find>
+      <find>r</find>
+      <find>time</find>
+      <find>ros</find>
+      <find>while</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_3dnav/launch/quad_3dnav.launch" />
+        <option value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/ros_kinetic.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="39" />
+    <option name="width" value="926" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ros_kinetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_kinetic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_kinetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_kinetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_kinetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_kinetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ROS_quadrotor_simulator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_kinetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_kinetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ROS_quadrotor_simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="quad_3dnav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_kinetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_kinetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ROS_quadrotor_simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="quad_3dnav" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="pointByPointPlanning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ros_kinetic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pointByPointPlanning" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48b47efa-bcac-4b2f-b448-c6ec69e5dff0" name="Default Changelist" comment="" />
+      <created>1555213614145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555213614145</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32925585" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34760448" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="749" selection-start-line="749" selection-end-line="749" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_3dnav/launch/quad_3dnav.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

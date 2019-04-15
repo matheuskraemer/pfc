@@ -31,6 +31,8 @@ import org.ros.node.topic.Subscriber;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import sensor_msgs.NavSatFix;
+
 
 /**
  * @author damonkohler@google.com (Damon Kohler)
@@ -40,10 +42,14 @@ public class RosTextView<T> extends TextView implements NodeMain {
   private String topicName;
   private String messageType;
   private MessageCallable<String, T> callable;
+  private MessageCallable<String, geometry_msgs.PoseWithCovariance> callablePoint;
   private std_msgs.String pubMessage;
+  private geometry_msgs.PoseWithCovariance pubWaypoint;
   private Publisher<std_msgs.String> publisher;
+  private Publisher<geometry_msgs.PoseWithCovariance> publisherWaypoint;
   private Timer publisherTimer;
-  private volatile boolean publish;
+  private Timer publisherWayPointTimer;
+  public volatile boolean publish;
 
 
 
@@ -63,9 +69,20 @@ public class RosTextView<T> extends TextView implements NodeMain {
     this.topicName = topicName;
   }
 
+
   public void setPublishMessage(String message) {
     this.pubMessage.setData(message);
   }
+
+    public void setPublishWaypoint(Double latitude, Double longitude, Float altura, Double roll, Double pitch, Double yaw, Integer heading_direction) {
+        this.pubWaypoint.getPose().getPosition().setX(latitude);
+        this.pubWaypoint.getPose().getPosition().setY(longitude);
+        this.pubWaypoint.getPose().getPosition().setZ(altura);
+        this.pubWaypoint.getPose().getOrientation().setX(roll);
+        this.pubWaypoint.getPose().getOrientation().setY(pitch);
+        this.pubWaypoint.getPose().getOrientation().setZ(yaw);
+        this.pubWaypoint.getPose().getOrientation().setW(heading_direction);
+    }
 
   public void setMessageType(String messageType) {
     this.messageType = messageType;
@@ -75,6 +92,10 @@ public class RosTextView<T> extends TextView implements NodeMain {
     this.callable = callable;
   }
 
+    public void setMessageToStringCallablePoint(MessageCallable<String, geometry_msgs.PoseWithCovariance> callable) {
+        this.callablePoint = callable;
+    }
+
   @Override
   public GraphName getDefaultNodeName() {
     return GraphName.of("android_gingerbread/ros_text_view");
@@ -83,22 +104,51 @@ public class RosTextView<T> extends TextView implements NodeMain {
   @Override
   public void onStart(ConnectedNode connectedNode) {
     this.publish = true;
-    publisher = connectedNode.newPublisher("chatter2", std_msgs.String._TYPE);
-    pubMessage = publisher.newMessage();
 
-    setPublishMessage("teste");
+    //publicador de estado
+    publisher = connectedNode.newPublisher("dji/status", std_msgs.String._TYPE);
+    pubMessage = publisher.newMessage();
     publisherTimer = new Timer();
     publisherTimer.schedule(new TimerTask() {
       @Override
       public void run() {
-        if (publish) {
-          publisher.publish(pubMessage);
+
+          if (!publish)
+          {
+              pubMessage.setData("");
+              publish = true;
+              
+          }
+
+        if (!pubMessage.getData().equals(""))
+        {
+            publisher.publish(pubMessage);
+            //pubMessage.setData("");
+            publish = false;
         }
+
+
+
+
       }
     }, 0, 500);
 
+        //publicador de ponto atual
+      publisherWaypoint = connectedNode.newPublisher("dji/current_pose", geometry_msgs.PoseWithCovariance._TYPE);
+      pubWaypoint = publisherWaypoint.newMessage();
+      publisherWayPointTimer = new Timer();
+      publisherWayPointTimer.schedule(new TimerTask() {
+      @Override
+      public void run() {
+          if (publish) {
+              publisherWaypoint.publish(pubWaypoint);
+          }
+      }
+  }, 0, 100);
 
-    Subscriber<T> subscriber = connectedNode.newSubscriber(topicName, messageType);
+
+    //subescreve comandos
+    Subscriber<T> subscriber = connectedNode.newSubscriber("dji/command", std_msgs.String._TYPE);
     subscriber.addMessageListener(new MessageListener<T>() {
       @Override
       public void onNewMessage(final T message) {
@@ -120,6 +170,30 @@ public class RosTextView<T> extends TextView implements NodeMain {
         postInvalidate();
       }
     });
+
+        //subscreve novos waypoints
+  Subscriber<geometry_msgs.PoseWithCovariance> subscriberPoint = connectedNode.newSubscriber("dji/waypoint", geometry_msgs.PoseWithCovariance._TYPE);
+  subscriberPoint.addMessageListener(new MessageListener<geometry_msgs.PoseWithCovariance>() {
+      @Override
+      public void onNewMessage(final geometry_msgs.PoseWithCovariance message) {
+          if (callablePoint != null) {
+              post(new Runnable() {
+                  @Override
+                  public void run() {
+                      callablePoint.call(message);
+                  }
+              });
+          } else {
+              post(new Runnable() {
+                  @Override
+                  public void run() {
+                      //setText(message.toString());
+                  }
+              });
+          }
+          postInvalidate();
+      }
+  });
   }
 
   @Override

@@ -5,8 +5,9 @@ import pickle
 import sys
 from moveit_msgs.msg import MoveGroupActionGoal, Constraints, JointConstraint, MoveGroupAction, MoveGroupGoal, PlanningSceneComponents, MoveGroupResult, MoveGroupActionResult
 from moveit_msgs.srv import GetPlanningScene
-from quad_planning.msg import DJIanswer
 import actionlib
+from std_msgs.msg import String
+from geometry_msgs.msg import PoseWithCovariance
 
 
 '''
@@ -46,23 +47,63 @@ getPlanningScene.wait_for_service()
 #set loop execution rate at 1 Hz
 r = rospy.Rate(1)
 
+rate_points = rospy.Rate(5)
+
 
 #get the currently DRONE currently position
 components = PlanningSceneComponents()
 components.components = 2
 robot_state = getPlanningScene(components).scene.robot_state
+
+
+'''
+print dump[0]
+if robot_state.multi_dof_joint_state.transforms[0].translation.x == dump[0][0].multi_dof_joint_state.transforms[0].translation.x \
+        and robot_state.multi_dof_joint_state.transforms[0].translation.y == dump[0].multi_dof_joint_state.transforms[0].translation.y\
+        and robot_state.multi_dof_joint_state.transforms[0].translation.z == dump[0].multi_dof_joint_state.transforms[0].translation.z\
+        and robot_state.multi_dof_joint_state.transforms[0].orientation.x == dump[0].multi_dof_joint_state.transforms[0].orientation.x\
+        and robot_state.multi_dof_joint_state.transforms[0].orientation.y == dump[0].multi_dof_joint_state.transforms[0].orientation.y\
+        and robot_state.multi_dof_joint_state.transforms[0].orientation.z == dump[0].multi_dof_joint_state.transforms[0].orientation.z\
+        and robot_state.multi_dof_joint_state.transforms[0].orientation.w == dump[0].multi_dof_joint_state.transforms[0].orientation.w:
+    pass
+else:
+
+'''
 dump.insert(0, [robot_state, 0])
 
 
 def DJICallback(msg):
-    print "tse"
+    print msg
     global flag_dji, flag_dji_adaptative
-    flag_dji = msg.position_reached
-    flag_dji_adaptative = msg.image_processing_result
+
+    if msg.data == "chegou":
+        flag_dji = 1
+
+    flag_dji_adaptative = 1
 
 
 def resultCallback(msg):
-    dji_traj_pub.publish(msg)
+    #print msg
+    i= 0
+    for point in msg.result.planned_trajectory.multi_dof_joint_trajectory.points:
+        waypoint = PoseWithCovariance()
+        waypoint.pose.position.x = point.transforms[0].translation.x
+        waypoint.pose.position.y = point.transforms[0].translation.y
+        waypoint.pose.position.z = point.transforms[0].translation.z
+
+        waypoint.pose.orientation.x = point.transforms[0].rotation.x
+        waypoint.pose.orientation.y = point.transforms[0].rotation.y
+        waypoint.pose.orientation.z = point.transforms[0].rotation.z
+        waypoint.pose.orientation.w = point.transforms[0].rotation.w
+        dji_traj_pub.publish(waypoint)
+
+        i += 1
+        rate_points.sleep()
+        #print waypoint.pose.orientation
+
+
+
+
 
 
 #send goal
@@ -178,7 +219,8 @@ def send_goal(current, goal):
     goal_msg.goal.request.workspace_parameters.max_corner.y = y_c + (diff_y / 2) + y_off # 30
     goal_msg.goal.request.workspace_parameters.max_corner.z = z_c + (diff_z / 2) + z_off # 30
 
-
+    '''
+    
     print x_c
     print y_c
     print z_c
@@ -187,6 +229,7 @@ def send_goal(current, goal):
     print diff_y
     print diff_z
     print goal_msg.goal.request.workspace_parameters
+    '''
 
     '''
     goal_msg.goal.request.workspace_parameters.header.frame_id = "/world"
@@ -197,21 +240,23 @@ def send_goal(current, goal):
     goal_msg.goal.request.workspace_parameters.max_corner.y = (y_s / 2) + y_c  # 30
     goal_msg.goal.request.workspace_parameters.max_corner.z = (z_s / 2) + z_c  # 30
     '''
-    print "Enviou posicao:"
+    print "Planejando e simulando"
     # print goal_msg.goal
     action = MoveGroupGoal
     action = goal_msg.goal
 
     client.send_goal(action)
     client.wait_for_result()
-
+    print "Enviou posicao:"
     print "Aguardando...:"
+    flag_dji = 0
     while (flag_dji == 0):
         r.sleep()
 
     flag_dji = 0
 
     print "Chegou!"
+    print "-----------------"
 
 
 print("Pronto para executar " + str(len(dump)) + " posicoes")
@@ -221,10 +266,10 @@ rospy.Subscriber("/move_group/result", MoveGroupResult, resultCallback, queue_si
 
 
 #get the pathplanning results
-rospy.Subscriber("/dji/status", DJIanswer, DJICallback, queue_size=10)
+rospy.Subscriber("/dji/status", String, DJICallback, queue_size=10)
 
 #topic to write the dji trajectory messages
-dji_traj_pub = rospy.Publisher("/dji/trajectory", MoveGroupActionResult, queue_size=10)
+dji_traj_pub = rospy.Publisher("/dji/waypoint", PoseWithCovariance, queue_size=10)
 
 
 #main

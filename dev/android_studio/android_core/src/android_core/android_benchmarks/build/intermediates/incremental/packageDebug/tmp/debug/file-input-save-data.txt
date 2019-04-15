@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Apr 13 16:24:44 BRT 2019
+0.baseType=DIRECTORY
+0.base=/home/matheus/Projects/pfc/dev/android_studio/android_core/src/android_core/android_benchmarks/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
