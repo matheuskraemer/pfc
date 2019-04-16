@@ -7,8 +7,20 @@ from moveit_msgs.msg import MoveGroupActionGoal, Constraints, JointConstraint, M
 from moveit_msgs.srv import GetPlanningScene
 import actionlib
 from std_msgs.msg import String
-from geometry_msgs.msg import PoseWithCovariance
+from geometry_msgs.msg import PoseWithCovariance, Quaternion
+from tf.transformations import euler_from_quaternion
+import math
 
+# Import geonav tranformation module
+import geonav_transform.geonav_conversions as gc
+reload(gc)
+# Import AlvinXY transformation module
+import alvinxy.alvinxy as axy
+reload(axy)
+
+
+olat = -27.5891397
+olon = -48.54069
 
 '''
 x_s = 24
@@ -83,10 +95,16 @@ def DJICallback(msg):
 
 
 def resultCallback(msg):
+    global olat
+    global olon
+
+
     #print msg
     i= 0
     for point in msg.result.planned_trajectory.multi_dof_joint_trajectory.points:
         waypoint = PoseWithCovariance()
+
+        '''
         waypoint.pose.position.x = point.transforms[0].translation.x
         waypoint.pose.position.y = point.transforms[0].translation.y
         waypoint.pose.position.z = point.transforms[0].translation.z
@@ -95,7 +113,30 @@ def resultCallback(msg):
         waypoint.pose.orientation.y = point.transforms[0].rotation.y
         waypoint.pose.orientation.z = point.transforms[0].rotation.z
         waypoint.pose.orientation.w = point.transforms[0].rotation.w
+
+        '''
+
+        #x/y to lat/long conversion
+        glat, glon = gc.xy2ll(point.transforms[0].translation.x, point.transforms[0].translation.y, olat, olon)
+
+        #calculation of quaternion
+        #quat = Quaternion([point.transforms[0].rotation.x,point.transforms[0].rotation.y,point.transforms[0].rotation.z,point.transforms[0].rotation.w])
+
+        #calculation of rpy angles
+        rpy = euler_from_quaternion([point.transforms[0].rotation.x,point.transforms[0].rotation.y,point.transforms[0].rotation.z,point.transforms[0].rotation.w])
+
+
+        waypoint.pose.position.x = glat
+        waypoint.pose.position.y = glon
+        waypoint.pose.position.z = point.transforms[0].translation.z
+
+        waypoint.pose.orientation.x = point.transforms[0].rotation.x
+        waypoint.pose.orientation.y = point.transforms[0].rotation.y
+        waypoint.pose.orientation.z = point.transforms[0].rotation.z
+        waypoint.pose.orientation.w = round(math.degrees(rpy[2]))
+
         dji_traj_pub.publish(waypoint)
+
 
         i += 1
         rate_points.sleep()

@@ -168,11 +168,9 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
             public String call(std_msgs.String message) {
                 switch (message.getData())
                 {
-                    case "start":
+                    case "config":
                         configWayPointMission();
-                        uploadWayPointMission();
-                        startWaypointMission();
-                        rosTextView.setPublishMessage("started");
+
                         break;
 
                     case "clear":
@@ -182,12 +180,23 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
 
                     case "stop":
                         stopWaypointMission();
-                        rosTextView.setPublishMessage("stopped");
+
                         break;
 
                     case "simulaChegada":
                         rosTextView.setPublishMessage("chegou");
                         break;
+
+                    case "upload":
+                        uploadWayPointMission();
+
+                        break;
+
+                    case "start":
+                        startWaypointMission();
+
+                        break;
+
 
                 }
 
@@ -243,9 +252,8 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
 
     @Override
     protected void init(NodeMainExecutor nodeMainExecutor) {
-        talker = new Talker();
-        addListener();
-        configWayPointMission();
+        ///talker = new Talker();
+
 
 
         // At this point, the user has already been prompted to either enter the URI
@@ -260,6 +268,8 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
         // start displaying incoming messages.
         nodeMainExecutor.execute(rosTextView, nodeConfiguration);
 
+        addListener();
+        //configWayPointMission();
 
     }
 
@@ -424,12 +434,12 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
                                     String positionX = Float.toString(stateData.getPositionX());
                                     String positionY = Float.toString(stateData.getPositionY());
                                     String positionZ = Float.toString(stateData.getPositionZ());
-                                    String test = ("Yaw : " + yaw + ", Pitch : " + pitch + ", Roll : " + roll + "\n" + ", PosX : " + positionX +
+                                    /*String test = ("Yaw : " + yaw + ", Pitch : " + pitch + ", Roll : " + roll + "\n" + ", PosX : " + positionX +
                                             "\n" + ", PosY : " + positionY +
                                             "\n" + ", PosZ : " + positionZ +
                                             "\n" + mFlightController.isVirtualStickControlModeAvailable()
                                             );
-                                    mTextView.setText(test);
+                                    mTextView.setText(test);*/
 
 
 
@@ -440,30 +450,43 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
 
                     mFlightController.setStateCallback(new FlightControllerState.Callback() {
                         @Override
-                        public void onUpdate(FlightControllerState djiFlightControllerCurrentState) {
+                        public void onUpdate(final FlightControllerState djiFlightControllerCurrentState) {
+
+                            new Handler(Looper.getMainLooper()).post(new Runnable() {
+                                @Override
+                                public void run() {
 
 
-                            rosTextView.setPublishWaypoint(djiFlightControllerCurrentState.getAircraftLocation().getLatitude(),
-                                    djiFlightControllerCurrentState.getAircraftLocation().getLongitude(),
-                                    djiFlightControllerCurrentState.getAircraftLocation().getAltitude(),
-                                    djiFlightControllerCurrentState.getAttitude().roll,
-                                    djiFlightControllerCurrentState.getAttitude().pitch,
-                                    djiFlightControllerCurrentState.getAttitude().yaw,
-                                    djiFlightControllerCurrentState.getAircraftHeadDirection());
 
-                                    /*
-                                    String yaw = Double.toString(djiFlightControllerCurrentState.getAttitude().yaw);
-                                    String pitch = Double.toString(djiFlightControllerCurrentState.getAttitude().pitch);
-                                    String roll = Double.toString(djiFlightControllerCurrentState.getAttitude().roll);
+                                    rosTextView.setPublishWaypoint(djiFlightControllerCurrentState.getAircraftLocation().getLatitude(),
+                                            djiFlightControllerCurrentState.getAircraftLocation().getLongitude(),
+                                            djiFlightControllerCurrentState.getAircraftLocation().getAltitude(),
+                                            djiFlightControllerCurrentState.getAttitude().roll,
+                                            djiFlightControllerCurrentState.getAttitude().pitch,
+                                            djiFlightControllerCurrentState.getAttitude().yaw,
+                                            djiFlightControllerCurrentState.getAircraftHeadDirection());
+
                                     String positionX = Double.toString(djiFlightControllerCurrentState.getAircraftLocation().getLatitude());
                                     String positionY = Double.toString(djiFlightControllerCurrentState.getAircraftLocation().getLongitude());
                                     String positionZ = Float.toString(djiFlightControllerCurrentState.getAircraftLocation().getAltitude());
+                                    String yaw = Double.toString(djiFlightControllerCurrentState.getAttitude().roll);
+                                    String pitch = Double.toString(djiFlightControllerCurrentState.getAttitude().pitch);
+                                    String roll = Double.toString(djiFlightControllerCurrentState.getAttitude().yaw);
+
+
                                     msg_text = ("Yaw : " + yaw + ", Pitch : " + pitch + ", Roll : " + roll + "\n" + ", PosX : " + positionX +
                                             "\n" + ", PosY : " + positionY +
                                             "\n" + ", PosZ : " + positionZ);
                                     mTextView.setText(msg_text);
-                                    //djiFlightControllerCurrentState.isFlying();
-                                    */
+
+
+
+                                }
+                            });
+
+
+
+
                         }
                     });
 
@@ -620,7 +643,7 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
                     if (mFlightController != null) {
 
                         mFlightController.getSimulator()
-                                .start(InitializationData.createInstance(new LocationCoordinate2D(23, 113), 10, 10),
+                                .start(InitializationData.createInstance(new LocationCoordinate2D(-27.5891397, -48.54069), 10, 10),
                                         new CommonCallbacks.CompletionCallback() {
                                     @Override
                                     public void onResult(DJIError djiError) {
@@ -856,7 +879,8 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
 
         }
 
-        /*Waypoint point = new Waypoint(22.5362,113.9454,10);
+        /*
+        Waypoint point = new Waypoint(22.5362,113.9454,10);
         //point.heading = 10;
         addWaypoint(point);
         Waypoint point2 = new Waypoint(22.5362,113.9454,11);
@@ -877,7 +901,9 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
         DJIError error = getWaypointMissionOperator().loadMission(waypointMissionBuilder.build());
         if (error == null) {
             setResultToToast("loadWaypoint succeeded");
+            rosTextView.setPublishMessage("configured");
         } else {
+            rosTextView.setPublishMessage("nconfigured");
             setResultToToast("loadWaypoint failed " + error.getDescription());
         }
 
@@ -945,9 +971,10 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
     public void clearWaypointList() {
 
         waypointList.clear();
-        waypointMissionBuilder.waypointList(waypointList);
 
-        rosTextView.setPublishMessage("limpo");
+        if (waypointMissionBuilder != null) {
+            waypointMissionBuilder.waypointList(waypointList);
+        }
     }
 
     private void uploadWayPointMission(){
@@ -957,9 +984,11 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
             public void onResult(DJIError error) {
                 if (error == null) {
                     setResultToToast("Mission upload successfully!");
+                    rosTextView.setPublishMessage("uploaded");
                 } else {
                     setResultToToast("Mission upload failed, error: " + error.getDescription() + " retrying...");
                     getWaypointMissionOperator().retryUploadMission(null);
+                    rosTextView.setPublishMessage("nuploaded");
                 }
             }
         });
@@ -983,6 +1012,7 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
         getWaypointMissionOperator().stopMission(new CommonCallbacks.CompletionCallback() {
             @Override
             public void onResult(DJIError error) {
+
                 rosTextView.setPublishMessage("parou");
                 setResultToToast("Mission Stop: " + (error == null ? "Successfully" : error.getDescription()));
             }

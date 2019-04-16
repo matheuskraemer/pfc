@@ -122,7 +122,7 @@
 
     <org.ros.android.view.RosTextView
         android:id="@+id/text"
-        android:layout_width="150dp"
+        android:layout_width="69dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_take_off"
         android:layout_alignParentEnd="true"
