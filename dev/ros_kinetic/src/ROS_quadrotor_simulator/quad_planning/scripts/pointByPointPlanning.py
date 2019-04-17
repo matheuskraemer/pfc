@@ -38,6 +38,11 @@ z_off = 5
 flag = 0
 flag_dji = 0
 flag_dji_adaptative = 0
+started = 0
+uploaded = 0
+configured = 0
+cleared = 0
+
 
 #read the file to get all the positions
 with open(sys.argv[1], "r") as f:
@@ -59,7 +64,7 @@ getPlanningScene.wait_for_service()
 #set loop execution rate at 1 Hz
 r = rospy.Rate(1)
 
-rate_points = rospy.Rate(5)
+rate_points = rospy.Rate(10)
 
 
 #get the currently DRONE currently position
@@ -86,22 +91,71 @@ dump.insert(0, [robot_state, 0])
 
 def DJICallback(msg):
     print msg
-    global flag_dji, flag_dji_adaptative
+    global flag_dji, flag_dji_adaptative, configured, started, uploaded, cleared
 
     if msg.data == "chegou":
         flag_dji = 1
 
+    if msg.data == "configured":
+        configured = 1
+
+    if msg.data == "uploaded":
+        uploaded = 1
+
+    if msg.data == "started":
+        started = 1
+
+    if msg.data == "cleared":
+        cleared = 1
+
     flag_dji_adaptative = 1
 
 
+def calcDist(point1, point2):
+    x = (point1.transforms[0].translation.x - point2.transforms[0].translation.x) ** 2
+    y = (point1.transforms[0].translation.y - point2.transforms[0].translation.y) ** 2
+    z = (point1.transforms[0].translation.z - point2.transforms[0].translation.z) ** 2
+
+    d = math.sqrt(x + y + z)
+
+    return d
+
 def resultCallback(msg):
-    global olat
-    global olon
+
+    global olat, olon, cleared, started, uploaded, configured
+
+    # logica de limpeza de pontos antigos
+    print "Limpando pontos antigos..."
+    dji_command.publish("clear")
+    while cleared == 0:
+        r.sleep()
+
+    cleared = 0
 
 
-    #print msg
+    points = msg.result.planned_trajectory.multi_dof_joint_trajectory.points
+
+    points_filtered = list()
+    points_filtered.append(points[0])
+
+    ultimo = False
+    distancia = 0
+    for i in range(len(points) - 1):
+        distancia += calcDist(points[i], points[i+1])
+
+        if distancia > 0.6:
+            distancia = 0
+            points_filtered.append(points[i + 1])
+            if i + 1 == (len(points)-1):
+                ultimo = True
+
+
+    if (not ultimo):
+        points_filtered[len(points_filtered) - 1] = points[len(points) - 1]
+        pass
+
     i= 0
-    for point in msg.result.planned_trajectory.multi_dof_joint_trajectory.points:
+    for point in points_filtered: #msg.result.planned_trajectory.multi_dof_joint_trajectory.points:
         waypoint = PoseWithCovariance()
 
         '''
@@ -137,12 +191,41 @@ def resultCallback(msg):
 
         dji_traj_pub.publish(waypoint)
 
-
         i += 1
         rate_points.sleep()
         #print waypoint.pose.orientation
 
+    #logica de controle#
 
+
+    rate_points.sleep()
+
+    #logica de configuracao dos pontos
+    print "Configurando..."
+    dji_command.publish("config")
+    while configured == 0:
+        r.sleep()
+
+    configured = 0
+
+
+    #logica de upload
+    print "Uploading..."
+    dji_command.publish("upload")
+    while uploaded == 0:
+        r.sleep()
+
+    uploaded = 0
+
+    #logica de start mission
+    print "Mission Start..."
+    dji_command.publish("start")
+    while started == 0:
+        r.sleep()
+
+    started = 0
+
+    print "Comecou!"
 
 
 
@@ -237,9 +320,9 @@ def send_goal(current, goal):
     goal_msg.goal.request.max_velocity_scaling_factor = 1
     goal_msg.goal.request.max_acceleration_scaling_factor = 1
 
-    goal_msg.goal.planning_options.planning_scene_diff.is_diff = True
+    goal_msg.goal.planning_options.planning_scene_diff.is_diff = False
 
-    goal_msg.goal.planning_options.plan_only = False
+    goal_msg.goal.planning_options.plan_only = True
     goal_msg.goal.planning_options.look_around = False
     goal_msg.goal.planning_options.replan = False
 
@@ -311,6 +394,9 @@ rospy.Subscriber("/dji/status", String, DJICallback, queue_size=10)
 
 #topic to write the dji trajectory messages
 dji_traj_pub = rospy.Publisher("/dji/waypoint", PoseWithCovariance, queue_size=10)
+
+#topic to write the dji commands
+dji_command = rospy.Publisher("/dji/command", String, queue_size=10)
 
 
 #main
