@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import rospy
+from time import sleep
 import pickle
 import sys
 from moveit_msgs.msg import MoveGroupActionGoal, Constraints, JointConstraint, MoveGroupAction, MoveGroupGoal, PlanningSceneComponents, MoveGroupResult, MoveGroupActionResult
@@ -18,6 +19,8 @@ reload(gc)
 import alvinxy.alvinxy as axy
 reload(axy)
 
+#topic to write the dji commands
+dji_command = rospy.Publisher("dji/command", String, queue_size=1)
 
 olat = -27.5891397
 olon = -48.54069
@@ -56,15 +59,18 @@ rospy.init_node("planning_calculator")
 client = actionlib.SimpleActionClient('/move_group', MoveGroupAction)
 client.wait_for_server()
 
-
 #service to get the initial state
 getPlanningScene = rospy.ServiceProxy("/get_planning_scene", GetPlanningScene)
 getPlanningScene.wait_for_service()
 
+
+#topic to write the dji trajectory messages
+dji_traj_pub = rospy.Publisher("/dji/waypoint", PoseWithCovariance, queue_size=10)
+
 #set loop execution rate at 1 Hz
 r = rospy.Rate(1)
 
-rate_points = rospy.Rate(10)
+rate_points = rospy.Rate(5)
 
 
 #get the currently DRONE currently position
@@ -74,7 +80,7 @@ robot_state = getPlanningScene(components).scene.robot_state
 
 
 '''
-print dump[0]
+print dump[0]               
 if robot_state.multi_dof_joint_state.transforms[0].translation.x == dump[0][0].multi_dof_joint_state.transforms[0].translation.x \
         and robot_state.multi_dof_joint_state.transforms[0].translation.y == dump[0].multi_dof_joint_state.transforms[0].translation.y\
         and robot_state.multi_dof_joint_state.transforms[0].translation.z == dump[0].multi_dof_joint_state.transforms[0].translation.z\
@@ -110,6 +116,9 @@ def DJICallback(msg):
 
     flag_dji_adaptative = 1
 
+#get the pathplanning results
+rospy.Subscriber("/dji/status", String, DJICallback, queue_size=10)
+
 
 def calcDist(point1, point2):
     x = (point1.transforms[0].translation.x - point2.transforms[0].translation.x) ** 2
@@ -120,9 +129,10 @@ def calcDist(point1, point2):
 
     return d
 
+ponto_ultimo = None
 def resultCallback(msg):
 
-    global olat, olon, cleared, started, uploaded, configured
+    global olat, olon, cleared, started, uploaded, configured, flag_dji, ponto_ultimo
 
     # logica de limpeza de pontos antigos
     print "Limpando pontos antigos..."
@@ -132,18 +142,23 @@ def resultCallback(msg):
 
     cleared = 0
 
+    sleep(5)
+
 
     points = msg.result.planned_trajectory.multi_dof_joint_trajectory.points
 
     points_filtered = list()
+
     points_filtered.append(points[0])
+
+    #points = points[1:]
 
     ultimo = False
     distancia = 0
     for i in range(len(points) - 1):
         distancia += calcDist(points[i], points[i+1])
 
-        if distancia > 0.6:
+        if distancia > 0.8:
             distancia = 0
             points_filtered.append(points[i + 1])
             if i + 1 == (len(points)-1):
@@ -154,7 +169,16 @@ def resultCallback(msg):
         points_filtered[len(points_filtered) - 1] = points[len(points) - 1]
         pass
 
-    i= 0
+    #points_filtered = points_filtered[1:]
+
+    i = 0
+
+    #for i in range(len(points_filtered) - 1):
+    #    print calcDist(points_filtered[i], points_filtered[i+1])
+
+
+    print "Manda trajetoria"
+    #points_filtered = points_filtered[8:]
     for point in points_filtered: #msg.result.planned_trajectory.multi_dof_joint_trajectory.points:
         waypoint = PoseWithCovariance()
 
@@ -171,17 +195,20 @@ def resultCallback(msg):
         '''
 
         #x/y to lat/long conversion
-        glat, glon = gc.xy2ll(point.transforms[0].translation.x, point.transforms[0].translation.y, olat, olon)
+        #lat, lon = gc.xy2ll(point.transforms[0].translation.x, point.transforms[0].translation.y, olat, olon)
 
-        #calculation of quaternion
-        #quat = Quaternion([point.transforms[0].rotation.x,point.transforms[0].rotation.y,point.transforms[0].rotation.z,point.transforms[0].rotation.w])
+        lat, lon = axy.xy2ll(point.transforms[0].translation.x, point.transforms[0].translation.y, olat, olon)
 
         #calculation of rpy angles
         rpy = euler_from_quaternion([point.transforms[0].rotation.x,point.transforms[0].rotation.y,point.transforms[0].rotation.z,point.transforms[0].rotation.w])
 
+        #print point.transforms[0].translation.x
+        #print point.transforms[0].translation.y
+        #print point.transforms[0].translation.z
+        #print "---------------------------------------------"
 
-        waypoint.pose.position.x = glat
-        waypoint.pose.position.y = glon
+        waypoint.pose.position.x = lat
+        waypoint.pose.position.y = lon
         waypoint.pose.position.z = point.transforms[0].translation.z
 
         waypoint.pose.orientation.x = point.transforms[0].rotation.x
@@ -193,41 +220,55 @@ def resultCallback(msg):
 
         i += 1
         rate_points.sleep()
-        #print waypoint.pose.orientation
 
+    #print len(points_filtered)
+
+    sleep(1)
     #logica de controle#
 
 
     rate_points.sleep()
+    if len(points_filtered) <= 1:
 
-    #logica de configuracao dos pontos
-    print "Configurando..."
-    dji_command.publish("config")
-    while configured == 0:
-        r.sleep()
+        print "Esta na posicao"
+        flag_dji = 1
 
-    configured = 0
+    else:
+
+        # logica de configuracao dos pontos
+        print "Configurando..."
+        dji_command.publish("config")
+        while configured == 0:
+            r.sleep()
+
+        configured = 0
+
+        sleep(1)
+
+        # logica de upload
+        print "Uploading..."
+        dji_command.publish("upload")
+        while uploaded == 0:
+            r.sleep()
+
+        uploaded = 0
+
+        sleep(1)
+
+        # logica de start mission
+        print "Mission Start..."
+        dji_command.publish("start")
+        while started == 0:
+            r.sleep()
+
+        started = 0
+        sleep(1)
+        print "Comecou!"
 
 
-    #logica de upload
-    print "Uploading..."
-    dji_command.publish("upload")
-    while uploaded == 0:
-        r.sleep()
 
-    uploaded = 0
-
-    #logica de start mission
-    print "Mission Start..."
-    dji_command.publish("start")
-    while started == 0:
-        r.sleep()
-
-    started = 0
-
-    print "Comecou!"
-
-
+#get the pathplanning results
+rospy.Subscriber("/move_group/result", MoveGroupResult, resultCallback, queue_size=10)
 
 
 #send goal
@@ -385,18 +426,8 @@ def send_goal(current, goal):
 
 print("Pronto para executar " + str(len(dump)) + " posicoes")
 
-#get the pathplanning results
-rospy.Subscriber("/move_group/result", MoveGroupResult, resultCallback, queue_size=10)
 
 
-#get the pathplanning results
-rospy.Subscriber("/dji/status", String, DJICallback, queue_size=10)
-
-#topic to write the dji trajectory messages
-dji_traj_pub = rospy.Publisher("/dji/waypoint", PoseWithCovariance, queue_size=10)
-
-#topic to write the dji commands
-dji_command = rospy.Publisher("/dji/command", String, queue_size=10)
 
 
 #main

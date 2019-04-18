@@ -2,6 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b47efa-bcac-4b2f-b448-c6ec69e5dff0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_acm_serial/android_acm_serial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_acm_serial/android_acm_serial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/android_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/android_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_benchmarks/android_benchmarks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_benchmarks/android_benchmarks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView.class" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/src/org/ros/android/view/RosTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_core_components/src/org/ros/android/view/RosTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_camera/android_tutorial_camera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_camera/android_tutorial_camera.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_image_transport/android_tutorial_image_transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_image_transport/android_tutorial_image_transport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_pubsub/android_tutorial_pubsub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_pubsub/android_tutorial_pubsub.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_teleop/android_tutorial_teleop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_teleop/android_tutorial_teleop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_3dnav/config/ompl_planning.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_3dnav/config/ompl_planning.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" afterDir="false" />
     </list>
@@ -13,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="223" column="4" lean-forward="true" selection-start-line="223" selection-start-column="4" selection-end-line="223" selection-end-column="4" />
+            <state relative-caret-position="-1477">
+              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="e#23#35#0" expanded="true" />
               </folding>
@@ -26,35 +48,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/teste.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/geonav_transform/examples/geonav_alvin_ex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="549">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DJICallback</find>
-      <find>flag_dji_adaptative</find>
-      <find>enviou</find>
-      <find>MoveGroupResult</find>
-      <find>send</find>
-      <find>result</find>
-      <find>robot_state</find>
-      <find>r.slee</find>
-      <find>r</find>
-      <find>time</find>
-      <find>ros</find>
-      <find>while</find>
-      <find>transform</find>
       <find>upload suc</find>
-      <find>print</find>
       <find>clea</find>
-      <find>plan</find>
       <find>ommand</find>
       <find>flag_dji</find>
       <find>waypoint</find>
@@ -62,8 +97,27 @@
       <find>rate_poin</find>
       <find>rate</find>
       <find>uploaded</find>
-      <find>started</find>
+      <find>while</find>
+      <find>planeja</find>
       <find>cleared</find>
+      <find>dji_command</find>
+      <find>comm</find>
+      <find>command</find>
+      <find>resultCallback</find>
+      <find>plan</find>
+      <find>plan_only</find>
+      <find>started</find>
+      <find>time.sleep</find>
+      <find>clear</find>
+      <find>calcdist</find>
+      <find>0.6</find>
+      <find>olat</find>
+      <find>glat, glo</find>
+      <find>sleep</find>
+      <find>plan_on</find>
+      <find>link</find>
+      <find>points_filtered.append(points[0])</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -73,17 +127,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_3dnav/launch/quad_3dnav.launch" />
+        <option value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py" />
         <option value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/ros_kinetic.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/geonav_transform/examples/geonav_alvin_ex.py" />
+        <option value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/teste.py" />
       </list>
     </option>
   </component>
@@ -122,15 +169,15 @@
               <item name="ros_kinetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ROS_quadrotor_simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="geonav_transform" type="462c0819:PsiDirectoryNode" />
+              <item name="quad_octomap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ros_kinetic" type="b2602c69:ProjectViewProjectNode" />
               <item name="ros_kinetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ROS_quadrotor_simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="geonav_transform" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="quad_octomap" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ros_kinetic" type="b2602c69:ProjectViewProjectNode" />
@@ -171,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pointByPointPlanning">
+  <component name="RunManager" selected="Python.teste">
     <configuration name="geonav_alvin_ex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ros_kinetic" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,8 +261,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ros_kinetic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.teste" />
         <item itemvalue="Python.pointByPointPlanning" />
         <item itemvalue="Python.geonav_alvin_ex" />
       </list>
@@ -236,7 +305,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -249,18 +317,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27319062" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49945414" weight="0.29561672" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054586" side_tool="true" weight="0.29561672" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32925585" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -277,18 +342,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="223" column="4" lean-forward="true" selection-start-line="223" selection-start-column="4" selection-end-line="223" selection-end-column="4" />
+        <state relative-caret-position="-1477">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
             <element signature="e#23#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/geonav_transform/examples/geonav_alvin_ex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="549">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

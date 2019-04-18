@@ -131,7 +131,7 @@ public class RosTextView<T> extends TextView implements NodeMain {
 
 
       }
-    }, 0, 500);
+    }, 0, 50);
 
         //publicador de ponto atual
       publisherWaypoint = connectedNode.newPublisher("dji/current_pose", geometry_msgs.PoseWithCovariance._TYPE);

@@ -9,10 +9,9 @@
     <list default="true" id="9fb95d7b-9705-40e5-9558-2d672bfa3a91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -20,63 +19,17 @@
       <change beforePath="$PROJECT_DIR$/android_acm_serial/android_acm_serial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_acm_serial/android_acm_serial.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_app/android_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/android_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_benchmarks/android_benchmarks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_benchmarks/android_benchmarks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android_core_components/build/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView.class" beforeDir="false" afterPath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_camera/android_tutorial_camera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_camera/android_tutorial_camera.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_image_transport/android_tutorial_image_transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_image_transport/android_tutorial_image_transport.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_pubsub/android_tutorial_pubsub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_pubsub/android_tutorial_pubsub.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_teleop/android_tutorial_teleop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_teleop/android_tutorial_teleop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/attitude_controller_node.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/position_controller_node.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_control/CMakeFiles/quad_controller.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_joystick_interface/CMakeFiles/quad_joystick_interface.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_cpp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/ROS_quadrotor_simulator/quad_planning/CMakeFiles/quad_planning_generate_messages_eus.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_nodejs.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/action_controller/CMakeFiles/action_controller_generate_messages_py.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/action_controller/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/action_controller/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/catkin_generated/order_packages.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/catkin_generated/order_packages.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/catkin_make.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/catkin_make.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/glog_catkin/CMakeFiles/glog_src.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/glog_catkin/CMakeFiles/glog_src.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/gtest/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/gtest/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/gtest/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/gtest/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/gtest/gtest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/gtest/gtest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/gtest/gtest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/gtest/gtest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_cpp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_eus.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_lisp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_nodejs.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/mav_msgs/CMakeFiles/mav_msgs_generate_messages_py.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_cpp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_eus.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_lisp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_nodejs.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/mav_comm/planning_msgs/CMakeFiles/planning_msgs_generate_messages_py.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/moveit_simple_controller_manager_generate_messages_eus.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/moveit_simple_controller_manager/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/lee_position_controller.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/rotors_simulator/rotors_control/CMakeFiles/lee_position_controller_node.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/gazebo_pose_publisher.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/gazebo_pose_publisher.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/build/rotors_simulator/rotors_gazebo/CMakeFiles/hovering_example.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/config/ompl_planning.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/config/ompl_planning.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -152,17 +105,18 @@
     <session id="-6707294">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -182,14 +136,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="java" value="4063" />
+          <entry key="java" value="4125" />
           <entry key="txt" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="4063" />
+          <entry key="JAVA" value="4125" />
           <entry key="PLAIN_TEXT" value="69" />
         </counts>
       </usages-collector>
@@ -209,20 +163,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="970" column="25" lean-forward="true" selection-start-line="970" selection-start-column="25" selection-end-line="970" selection-end-column="25" />
+            <state relative-caret-position="217">
+              <caret line="972" column="29" lean-forward="true" selection-start-line="972" selection-start-column="29" selection-end-line="972" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#14497#14651#0" expanded="true" />
-                <element signature="e#14650#14651#0" expanded="true" />
-                <element signature="e#16407#17928#0" expanded="true" />
-                <element signature="e#16630#17878#0" expanded="true" />
-                <element signature="e#17877#17878#0" expanded="true" />
-                <element signature="e#17927#17928#0" expanded="true" />
-                <element signature="e#17987#21298#0" expanded="true" />
-                <element signature="e#18232#19480#0" expanded="true" />
-                <element signature="e#19479#19480#0" expanded="true" />
-                <element signature="e#21297#21298#0" expanded="true" />
+                <element signature="e#38489#39094#0" expanded="true" />
+                <element signature="e#39093#39094#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -230,15 +176,15 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android_app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
-              <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
+            <state relative-caret-position="217">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1857#1858#0" expanded="true" />
@@ -252,10 +198,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setPublishWaypoint</find>
-      <find>addlistener</find>
-      <find>getWaypointMissionOperator()</find>
-      <find>parado</find>
       <find>pubWaypoint</find>
       <find>mflightc</find>
       <find>rosTextView.setPublishMessage(&quot;chegou&quot;)</find>
@@ -282,6 +224,10 @@
       <find>configwaypo</find>
       <find>configWayPointMission()</find>
       <find>clear</find>
+      <find>startWaypointMission()</find>
+      <find>cleatrf</find>
+      <find>cleared</find>
+      <find>clearWaypointList()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -306,9 +252,9 @@
         <option value="$PROJECT_DIR$/android_tutorial_pubsub/src/org/ros/android/android_tutorial_pubsub/MainActivity.java" />
         <option value="$USER_HOME$/AndroidStudioProjects/android_core/src/android_core/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" />
         <option value="$USER_HOME$/AndroidStudioProjects/android_core/src/android_core/android_app/build.gradle" />
-        <option value="$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java" />
         <option value="$PROJECT_DIR$/android_app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java" />
       </list>
     </option>
   </component>
@@ -326,45 +272,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android_app" type="feadf853:AndroidModuleNode" />
+              <item name="android_core" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android_app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android_app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android_core_components" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android_core_components" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android_core_components" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android_core_components" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="android_core" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="android_core_components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -382,17 +300,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="AndroidView">
+        <subPane>
           <expand>
             <path>
-              <item name="android_core" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="android_core" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="android_core_components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -940,7 +853,7 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26533997" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26533997" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -954,7 +867,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32635984" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32635984" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -1000,20 +913,20 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android_core_components/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android_tutorial_pubsub/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android_tutorial_pubsub/local.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1032,8 +945,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android_tutorial_teleop/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android_core_components/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1083,12 +996,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android_app/src/androidTest/java/com/dji/simulatorDemo/ApplicationTest.java" />
     <entry file="file://$PROJECT_DIR$/android_app/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="72" selection-start-line="30" selection-end-line="72" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1098,12 +1011,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android_tutorial_pubsub/res/layout/main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android_tutorial_pubsub/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1165,12 +1078,12 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AndroidStudioProjects/android_core/src/android_core/android_app/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$USER_HOME$/AndroidStudioProjects/android_core/src/android_core/android_benchmarks/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1196,10 +1109,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/android_app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="119" column="14" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
+        <state relative-caret-position="217">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1857#1858#0" expanded="true" />
@@ -1208,26 +1125,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android_app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="970" column="25" lean-forward="true" selection-start-line="970" selection-start-column="25" selection-end-line="970" selection-end-column="25" />
+        <state relative-caret-position="217">
+          <caret line="972" column="29" lean-forward="true" selection-start-line="972" selection-start-column="29" selection-end-line="972" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#14497#14651#0" expanded="true" />
-            <element signature="e#14650#14651#0" expanded="true" />
-            <element signature="e#16407#17928#0" expanded="true" />
-            <element signature="e#16630#17878#0" expanded="true" />
-            <element signature="e#17877#17878#0" expanded="true" />
-            <element signature="e#17927#17928#0" expanded="true" />
-            <element signature="e#17987#21298#0" expanded="true" />
-            <element signature="e#18232#19480#0" expanded="true" />
-            <element signature="e#19479#19480#0" expanded="true" />
-            <element signature="e#21297#21298#0" expanded="true" />
+            <element signature="e#38489#39094#0" expanded="true" />
+            <element signature="e#39093#39094#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -934,7 +934,7 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
 
         @Override
         public void onUploadUpdate(WaypointMissionUploadEvent uploadEvent) {
-            showToast("upload sucesso");
+            //showToast("upload sucesso");
         }
 
         @Override
@@ -1000,7 +1000,7 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
         getWaypointMissionOperator().startMission(new CommonCallbacks.CompletionCallback() {
             @Override
             public void onResult(DJIError error) {
-                rosTextView.setPublishMessage("comecou");
+                rosTextView.setPublishMessage("started");
                 setResultToToast("Mission Start: " + (error == null ? "Successfully" : error.getDescription()));
             }
         });
