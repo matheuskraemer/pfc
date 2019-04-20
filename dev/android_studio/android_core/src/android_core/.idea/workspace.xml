@@ -7,30 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fb95d7b-9705-40e5-9558-2d672bfa3a91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_acm_serial/android_acm_serial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_acm_serial/android_acm_serial.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_app/android_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/android_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_benchmarks/android_benchmarks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_benchmarks/android_benchmarks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android_core_components/build/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView.class" beforeDir="false" afterPath="$PROJECT_DIR$/android_core_components/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/ros/android/view/RosTextView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_camera/android_tutorial_camera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_camera/android_tutorial_camera.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_image_transport/android_tutorial_image_transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_image_transport/android_tutorial_image_transport.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_pubsub/android_tutorial_pubsub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_pubsub/android_tutorial_pubsub.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_teleop/android_tutorial_teleop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_teleop/android_tutorial_teleop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/config/ompl_planning.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_3dnav/config/ompl_planning.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/geonav_transform" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/geonav_transform" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/scripts/teste.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,18 +95,20 @@
     <session id="-6707294">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -163,12 +155,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="972" column="29" lean-forward="true" selection-start-line="972" selection-start-column="29" selection-end-line="972" selection-end-column="29" />
+            <state relative-caret-position="197">
+              <caret line="988" column="57" selection-start-line="988" selection-start-column="57" selection-end-line="988" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#38489#39094#0" expanded="true" />
-                <element signature="e#39093#39094#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,7 +173,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
+            <state relative-caret-position="150">
               <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -288,6 +278,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,7 +290,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -853,7 +843,7 @@
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26533997" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26533997" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -868,7 +858,7 @@
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.32635984" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -1115,7 +1105,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="150">
           <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1127,12 +1117,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="972" column="29" lean-forward="true" selection-start-line="972" selection-start-column="29" selection-end-line="972" selection-end-column="29" />
+        <state relative-caret-position="197">
+          <caret line="988" column="57" selection-start-line="988" selection-start-column="57" selection-end-line="988" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#38489#39094#0" expanded="true" />
-            <element signature="e#39093#39094#0" expanded="true" />
           </folding>
         </state>
       </provider>

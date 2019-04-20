@@ -11,6 +11,7 @@ from std_msgs.msg import String
 from geometry_msgs.msg import PoseWithCovariance, Quaternion
 from tf.transformations import euler_from_quaternion
 import math
+import pyproj
 
 # Import geonav tranformation module
 import geonav_transform.geonav_conversions as gc
@@ -24,6 +25,15 @@ dji_command = rospy.Publisher("dji/command", String, queue_size=1)
 
 olat = -27.5891397
 olon = -48.54069
+
+# calculador de projecao
+#project = pyproj.Proj('+proj=merc +datum=WGS84 +units=m')
+project = pyproj.Proj('+proj=utm +zone=23J +datum=WGS84 +units=m +no_defs')
+
+# origiem na projecao mercator
+x0, y0 = project(olat, olon)
+
+
 
 '''
 x_s = 24
@@ -153,12 +163,14 @@ def resultCallback(msg):
 
     #points = points[1:]
 
+
+    #filtra os pontos, deixando uma distancia minima entre eles
     ultimo = False
     distancia = 0
     for i in range(len(points) - 1):
         distancia += calcDist(points[i], points[i+1])
 
-        if distancia > 0.8:
+        if distancia > 0.66:
             distancia = 0
             points_filtered.append(points[i + 1])
             if i + 1 == (len(points)-1):
@@ -173,9 +185,10 @@ def resultCallback(msg):
 
     i = 0
 
-    #for i in range(len(points_filtered) - 1):
-    #    print calcDist(points_filtered[i], points_filtered[i+1])
+    for i in range(len(points_filtered) - 1):
+        print calcDist(points_filtered[i], points_filtered[i+1])
 
+    #print "distancia", calcDist(points_filtered[0], points_filtered[-1])
 
     print "Manda trajetoria"
     #points_filtered = points_filtered[8:]
@@ -195,9 +208,11 @@ def resultCallback(msg):
         '''
 
         #x/y to lat/long conversion
-        #lat, lon = gc.xy2ll(point.transforms[0].translation.x, point.transforms[0].translation.y, olat, olon)
+        lat, lon = gc.xy2ll(point.transforms[0].translation.x, point.transforms[0].translation.y, olat, olon)
 
-        lat, lon = axy.xy2ll(point.transforms[0].translation.x, point.transforms[0].translation.y, olat, olon)
+        #lat, lon = axy.xy2ll(point.transforms[0].translation.x, point.transforms[0].translation.y, olat, olon)
+
+        #lat, lon = project(x0 + point.transforms[0].translation.x, y0 + point.transforms[0].translation.y, inverse=True)
 
         #calculation of rpy angles
         rpy = euler_from_quaternion([point.transforms[0].rotation.x,point.transforms[0].rotation.y,point.transforms[0].rotation.z,point.transforms[0].rotation.w])
@@ -216,6 +231,9 @@ def resultCallback(msg):
         waypoint.pose.orientation.z = point.transforms[0].rotation.z
         waypoint.pose.orientation.w = round(math.degrees(rpy[2]))
 
+
+        print waypoint.pose.position
+        print "---------------------------"
         dji_traj_pub.publish(waypoint)
 
         i += 1
@@ -363,7 +381,7 @@ def send_goal(current, goal):
 
     goal_msg.goal.planning_options.planning_scene_diff.is_diff = False
 
-    goal_msg.goal.planning_options.plan_only = True
+    goal_msg.goal.planning_options.plan_only = False
     goal_msg.goal.planning_options.look_around = False
     goal_msg.goal.planning_options.replan = False
 
