@@ -1,0 +1,8 @@
+prefix=/home/matheus/Projects/pfc/dev/ros_kinetic/install
+
+Name: geonav_transform
+Description: Description of geonav_transform
+Version: 0.0.1
+Cflags: -I/home/matheus/Projects/pfc/dev/ros_kinetic/install/include -I/usr/include/eigen3
+Libs: -L/home/matheus/Projects/pfc/dev/ros_kinetic/install/lib -lgeonav_transform
+Requires: roscpp cmake_modules geographic_msgs geometry_msgs nav_msgs sensor_msgs std_msgs tf2 tf2_geometry_msgs tf2_ros
