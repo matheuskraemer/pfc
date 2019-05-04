@@ -12,11 +12,12 @@ http://www.cta-dlr2009.ita.br/Proceedings/PDF/59018.pdf
 
 https://www.powerengineeringint.com/articles/2018/02/how-drones-are-playing-a-role-in-the-power-and-utility-sector.html
 
-https://www.researchgate.net/publication/286166840_Unmanned_Aerial_Vehicles_for_Power_Line_Inspection_A_Cooperative_Way_in_Platforms_and_Communications
-
-https://www.researchgate.net/publication/300615949_The_UAV_intelligent_inspection_of_transmission_lines
-
 https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20170011048.pdf
 
 http://www.jocm.us/uploadfile/2014/0918/20140918110959273.pdf
+
+
+https://www.researchgate.net/publication/286166840_Unmanned_Aerial_Vehicles_for_Power_Line_Inspection_A_Cooperative_Way_in_Platforms_and_Communications
+
+https://www.researchgate.net/publication/300615949_The_UAV_intelligent_inspection_of_transmission_lines
 
