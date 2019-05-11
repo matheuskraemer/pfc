@@ -1,0 +1,92 @@
+#!/usr/bin/env python
+import rospy
+from sensor_msgs.msg import Joy
+from moveit_msgs.msg import PlanningSceneComponents
+from moveit_msgs.srv import GetPlanningScene, GetStateValidityRequest, GetStateValidity
+from os import listdir
+from os.path import isfile, join
+import pickle
+
+path = "/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/scripts/lists"
+
+nivel = 0
+
+r = rospy.Rate(1)
+
+positions = list(list())
+
+
+def pointCallback(msg):
+    global nivel
+
+    # seta esquerda
+    if (msg.axes[4] == 1):
+        pass
+
+    # dir direita
+    if (msg.axes[4] == -1):
+        pass
+
+        # seta cima
+    if (msg.axes[5] == 1):
+        nivel += 1
+        rospy.logwarn("Nivel: " + str(nivel + 1))
+
+    # dir baixo
+    if (msg.axes[5] == -1):
+        if nivel == 0:
+            pass
+        else:
+            nivel += -1
+            rospy.logwarn("Nivel: " + str(nivel + 1))
+
+    # select R2
+    if (msg.buttons[7] == 1):
+        del positions[:]
+        rospy.logwarn("Posicoes resetadas")
+
+    #select button
+    if (msg.buttons[8] == 1):
+
+        robot_state = getPlanningScene(components).scene.robot_state
+
+        state = GetStateValidityRequest()
+        state.robot_state = robot_state
+        state.group_name = "Quad_base"
+
+        validityResponse = getValidity(state)
+
+        if (validityResponse.valid):
+            positions.append([robot_state, nivel])
+            rospy.logwarn("Posicao de nivel " + str(nivel+1))
+            rospy.logwarn(robot_state.multi_dof_joint_state.transforms[0])
+        else:
+            rospy.logwarn("Posicao nao valida!")
+
+    #start button
+    if (msg.buttons[9] == 1):
+        if len(positions) == 0:
+            rospy.logwarn("Nenhuma posicao para salvar")
+        else:
+            file_number = len([f for f in listdir(path) if isfile(join(path, f))])
+            with open(path + "/list" + str(file_number) + ".txt", "w") as f:
+                pickle.dump(positions, f, 1)
+
+            rospy.logwarn("takepoint: Arquivo salvo!")
+            del positions[:]
+
+
+rospy.init_node("pickpoint")
+
+rospy.Subscriber("quad/joy", Joy, pointCallback, queue_size=1)
+
+getValidity = rospy.ServiceProxy("/check_state_validity", GetStateValidity)
+getPlanningScene = rospy.ServiceProxy("/get_planning_scene", GetPlanningScene)
+components = PlanningSceneComponents()
+components.components = 2
+
+rospy.wait_for_service('/get_planning_scene')
+
+while (not rospy.is_shutdown()):
+
+    r.sleep()
