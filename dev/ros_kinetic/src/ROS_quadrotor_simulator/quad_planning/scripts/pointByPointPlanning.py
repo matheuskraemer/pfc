@@ -124,7 +124,7 @@ def DJICallback(msg):
     if msg.data == "cleared":
         cleared = 1
 
-    flag_dji_adaptative = 1
+    flag_dji_adaptative = -1
 
 #get the pathplanning results
 rospy.Subscriber("/dji/status", String, DJICallback, queue_size=10)
@@ -170,7 +170,7 @@ def resultCallback(msg):
     for i in range(len(points) - 1):
         distancia += calcDist(points[i], points[i+1])
 
-        if distancia > 0.66:
+        if distancia > 0.8:
             distancia = 0
             points_filtered.append(points[i + 1])
             if i + 1 == (len(points)-1):
