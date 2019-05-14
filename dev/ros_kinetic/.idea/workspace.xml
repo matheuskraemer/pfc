@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48b47efa-bcac-4b2f-b448-c6ec69e5dff0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_acm_serial/android_acm_serial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_acm_serial/android_acm_serial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/android_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_app/android_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_benchmarks/android_benchmarks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_benchmarks/android_benchmarks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_camera/android_tutorial_camera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_camera/android_tutorial_camera.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_image_transport/android_tutorial_image_transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_image_transport/android_tutorial_image_transport.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_pubsub/android_tutorial_pubsub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_pubsub/android_tutorial_pubsub.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_teleop/android_tutorial_teleop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../android_studio/android_core/src/android_core/android_tutorial_teleop/android_tutorial_teleop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/geonav_transform/examples/geonav_alvin_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/geonav_transform/examples/geonav_alvin_ex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/teste.py" afterDir="false" />
-    </list>
+    <list default="true" id="48b47efa-bcac-4b2f-b448-c6ec69e5dff0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,41 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="183" column="42" lean-forward="true" selection-start-line="183" selection-start-column="42" selection-end-line="183" selection-end-column="42" />
-              <folding>
-                <element signature="e#23#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/teste.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/geonav_transform/examples/geonav_alvin_ex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -305,7 +256,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49945414" visible="true" weight="0.21508664" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49945414" visible="true" weight="0.2099898" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054586" side_tool="true" weight="0.29561672" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32925585" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,10 +293,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/geonav_transform/examples/geonav_alvin_ex.py">
+    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="246">
+          <caret line="183" column="42" selection-start-line="183" selection-start-column="42" selection-end-line="183" selection-end-column="42" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -359,13 +313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
+    <entry file="file://$PROJECT_DIR$/src/ROS_quadrotor_simulator/geonav_transform/examples/geonav_alvin_ex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="183" column="42" lean-forward="true" selection-start-line="183" selection-start-column="42" selection-end-line="183" selection-end-column="42" />
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
