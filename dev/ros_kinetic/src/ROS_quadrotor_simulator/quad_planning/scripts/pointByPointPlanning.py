@@ -229,7 +229,19 @@ def resultCallback(msg):
         waypoint.pose.orientation.x = point.transforms[0].rotation.x
         waypoint.pose.orientation.y = point.transforms[0].rotation.y
         waypoint.pose.orientation.z = point.transforms[0].rotation.z
-        waypoint.pose.orientation.w = round(math.degrees(rpy[2]))
+
+        degree = round(90 - math.degrees(rpy[2]))
+
+        if abs(round(90 - math.degrees(rpy[2]))) > 180:
+            if degree < 0:
+                degree += 360
+            else:
+                degree -= 360
+
+        orientacao = degree
+
+
+        waypoint.pose.orientation.w = round(orientacao)
 
 
         print waypoint.pose.position
