@@ -23,8 +23,11 @@ reload(axy)
 #topic to write the dji commands
 dji_command = rospy.Publisher("dji/command", String, queue_size=1)
 
-olat = -27.5891397
-olon = -48.54069
+#olat = -27.5891397
+#olon = -48.54069
+
+olat = -27.605003
+olon = -48.519530
 
 # calculador de projecao
 #project = pyproj.Proj('+proj=merc +datum=WGS84 +units=m')
@@ -124,6 +127,15 @@ def DJICallback(msg):
     if msg.data == "cleared":
         cleared = 1
 
+    if msg.data == "1":
+        flag_dji_adaptative = 1
+
+    if msg.data == "0":
+        flag_dji_adaptative = 0
+
+    if msg.data == "-1":
+        flag_dji_adaptative = -1
+
     flag_dji_adaptative = -1
 
 #get the pathplanning results
@@ -139,10 +151,40 @@ def calcDist(point1, point2):
 
     return d
 
+def quatToDegree(ponto):
+    rotation = ponto.transforms[0].rotation
+
+    rpy = euler_from_quaternion(
+        [rotation.x, rotation.y, rotation.z,
+         rotation.w])
+
+    # print [rotation.x, rotation.y, rotation.z, rotation.w]
+
+    degree = round(90 - math.degrees(rpy[2]))
+
+    if abs(round(90 - math.degrees(rpy[2]))) > 180:
+        if degree < 0:
+            degree += 360
+        else:
+            degree -= 360
+
+    return degree
+
+def normaliza(pontos, ponto_normaliza):
+
+
+    for ponto in pontos:
+        ponto.transforms[0].translation.x -= 9.82631234897
+        ponto.transforms[0].translation.y -= 29.5618184198
+
+
+    return pontos
+
 ponto_ultimo = None
 def resultCallback(msg):
 
     global olat, olon, cleared, started, uploaded, configured, flag_dji, ponto_ultimo
+
 
     # logica de limpeza de pontos antigos
     print "Limpando pontos antigos..."
@@ -152,47 +194,107 @@ def resultCallback(msg):
 
     cleared = 0
 
+
+
     sleep(5)
 
 
+
     points = msg.result.planned_trajectory.multi_dof_joint_trajectory.points
+
+    #points = normaliza(points, points[1])
 
     points_filtered = list()
 
     points_filtered.append(points[0])
 
-    #points = points[1:]
-
 
     #filtra os pontos, deixando uma distancia minima entre eles
-    ultimo = False
-    distancia = 0
-    for i in range(len(points) - 1):
-        distancia += calcDist(points[i], points[i+1])
-
-        if distancia > 0.8:
-            distancia = 0
-            points_filtered.append(points[i + 1])
-            if i + 1 == (len(points)-1):
-                ultimo = True
-
-
-    if (not ultimo):
-        points_filtered[len(points_filtered) - 1] = points[len(points) - 1]
-        pass
-
-    #points_filtered = points_filtered[1:]
 
     i = 0
+    j = 0
+    for i in range(len(points) - 1):
 
+        distancia = calcDist(points[j], points[i+1])
+
+        if distancia > 0.8:
+            j = i + 1
+            points_filtered.append(points[i + 1])
+
+
+
+    if (points_filtered[-1].transforms[0].translation != points[-1].transforms[0].translation):
+        points_filtered[-1] = points[-1]
+
+    '''
+    print "Pontos originais"
+    for ponto_original in points:
+        print ponto_original.transforms[0].translation
+        print "Orientacao:", quatToDegree(ponto_original)
+        print "---------------------------"
+    print "Fim dos pontos originais"
+
+
+
+    print "Pontos filtrados"
+    for ponto_filtrado in points_filtered:
+        print ponto_filtrado.transforms[0].translation
+        print "Orientacao:", quatToDegree(ponto_filtrado)
+        print "---------------------------"
+    print "Fim dos pontos filtrados"
+
+
+
+    print "Comparacao"
+    print "Primeiros"
+    print points_filtered[0].transforms[0].translation
+    print "---------------------------"
+    print points[0].transforms[0].translation
+    print "---------------------------"
+    print "Ultimos"
+    print points_filtered[-1].transforms[0].translation
+    print "---------------------------"
+    print points[-1].transforms[0].translation
+    print "---------------------------"
+    print "Fim comparacao"
+
+
+
+    i = 0
+    print "Distancia entre pontos filtrados"
     for i in range(len(points_filtered) - 1):
         print calcDist(points_filtered[i], points_filtered[i+1])
+    print "Fim Distancia entre pontos"
 
-    #print "distancia", calcDist(points_filtered[0], points_filtered[-1])
+
+    '''
+
+    points_filtered = normaliza(points_filtered, points_filtered[0])
+
 
     print "Manda trajetoria"
-    #points_filtered = points_filtered[8:]
-    for point in points_filtered: #msg.result.planned_trajectory.multi_dof_joint_trajectory.points:
+
+    #print "tamanho dos resultados do filtro"
+    #print len(points_filtered)
+    print "---------------------------"
+
+    points_filtered[-1]
+
+    rpy = euler_from_quaternion(
+        [points_filtered[-1].transforms[0].rotation.x, points_filtered[-1].transforms[0].rotation.y, points_filtered[-1].transforms[0].rotation.z,
+         points_filtered[-1].transforms[0].rotation.w])
+
+    degree = round(90 - math.degrees(rpy[2]))
+
+    if abs(round(90 - math.degrees(rpy[2]))) > 180:
+        if degree < 0:
+            degree += 360
+        else:
+            degree -= 360
+
+    orientacao = degree
+
+    for point in points_filtered:
         waypoint = PoseWithCovariance()
 
         '''
@@ -215,20 +317,8 @@ def resultCallback(msg):
         #lat, lon = project(x0 + point.transforms[0].translation.x, y0 + point.transforms[0].translation.y, inverse=True)
 
         #calculation of rpy angles
+        '''
         rpy = euler_from_quaternion([point.transforms[0].rotation.x,point.transforms[0].rotation.y,point.transforms[0].rotation.z,point.transforms[0].rotation.w])
-
-        #print point.transforms[0].translation.x
-        #print point.transforms[0].translation.y
-        #print point.transforms[0].translation.z
-        #print "---------------------------------------------"
-
-        waypoint.pose.position.x = lat
-        waypoint.pose.position.y = lon
-        waypoint.pose.position.z = point.transforms[0].translation.z
-
-        waypoint.pose.orientation.x = point.transforms[0].rotation.x
-        waypoint.pose.orientation.y = point.transforms[0].rotation.y
-        waypoint.pose.orientation.z = point.transforms[0].rotation.z
 
         degree = round(90 - math.degrees(rpy[2]))
 
@@ -239,19 +329,35 @@ def resultCallback(msg):
                 degree -= 360
 
         orientacao = degree
+        '''
+
+        waypoint.pose.position.x = lat
+        waypoint.pose.position.y = lon
+        waypoint.pose.position.z = point.transforms[0].translation.z
+
+        waypoint.pose.orientation.x = point.transforms[0].rotation.x
+        waypoint.pose.orientation.y = point.transforms[0].rotation.y
+        waypoint.pose.orientation.z = point.transforms[0].rotation.z
 
 
-        waypoint.pose.orientation.w = round(orientacao)
 
 
+        waypoint.pose.orientation.w = orientacao
+
+        print "Coordenadas cartesianas"
+        print point.transforms[0].translation
+        print "Orientacao:", quatToDegree(point)
+        print "---------------------------"
+        print "Coordenadas GPS"
         print waypoint.pose.position
+        print "Orientacao:", waypoint.pose.orientation.w
         print "---------------------------"
         dji_traj_pub.publish(waypoint)
 
         i += 1
         rate_points.sleep()
 
-    #print len(points_filtered)
+
 
     sleep(1)
     #logica de controle#
@@ -265,6 +371,8 @@ def resultCallback(msg):
 
     else:
 
+
+        
         # logica de configuracao dos pontos
         print "Configurando..."
         dji_command.publish("config")
@@ -295,6 +403,8 @@ def resultCallback(msg):
         sleep(1)
         print "Comecou!"
 
+
+        #pass
 
 
 #get the pathplanning results

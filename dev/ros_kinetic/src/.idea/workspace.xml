@@ -2,8 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f7f069-d717-4b11-b36a-1ca9fc4b2294" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_dji_dji_sdk_4_9_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_dji_dji_sdk_4_9_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_dji_dji_sdk_provided_4_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_dji_dji_sdk_provided_4_9_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_google_guava_guava_12_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_google_guava_guava_12_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_lmax_disruptor_3_3_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_lmax_disruptor_3_3_9_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_mapzen_android_lost_3_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_mapzen_android_lost_3_0_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_squareup_wire_wire_runtime_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__com_squareup_wire_wire_runtime_2_2_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__commons_pool_commons_pool_1_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__commons_pool_commons_pool_1_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__dnsjava_dnsjava_2_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__dnsjava_dnsjava_2_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__io_netty_netty_3_5_2_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__io_netty_netty_3_5_2_Final_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_codec_1_3_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_codec_1_3_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_httpclient_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_httpclient_3_1_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_io_1_4_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_io_1_4_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_lang_2_4_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_lang_2_4_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_logging_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_logging_1_1_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_net_2_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_net_2_0_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_ws_commons_ws_commons_util_1_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_apache_ws_commons_ws_commons_util_1_0_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_57_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_57_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_57_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_57_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_acm_serial/android_acm_serial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_acm_serial/android_acm_serial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_app/android_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_app/android_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_benchmarks/android_benchmarks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_benchmarks/android_benchmarks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_camera/android_tutorial_camera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_camera/android_tutorial_camera.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_image_transport/android_tutorial_image_transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_image_transport/android_tutorial_image_transport.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_map_viewer/android_tutorial_map_viewer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_pubsub/android_tutorial_pubsub.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_pubsub/android_tutorial_pubsub.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_teleop/android_tutorial_teleop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android_studio/android_core/src/android_core/android_tutorial_teleop/android_tutorial_teleop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" afterDir="false" />
     </list>
@@ -17,7 +65,7 @@
     <favorites_list name="src" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +77,29 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>lat</find>
+      <find>send_goal</find>
+      <find>execu</find>
+      <find>lag_dj</find>
+      <find>flag_dji</find>
+      <find>DJICallback</find>
+      <find>flag_dji_adaptative</find>
+      <find>print</find>
+      <find>ponto_filtrado</find>
+      <find>esta na pos</find>
+      <find>quatToDegree</find>
+      <find>waypoin</find>
+      <find>subscr</find>
+      <find>rate_points</find>
+      <find>main</find>
+      <find>node</find>
+      <find>sleep</find>
+      <find>sle</find>
+      <find>Limpando pontos antigos...</find>
+      <find>dji_command</find>
+      <find>dump</find>
+      <find>normaliza</find>
+      <find>tamanho d</find>
+      <find>Coordenadas GPS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -41,15 +112,16 @@
         <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/results/resultando_aceitando" />
         <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_collect/scripts/leArquivo.py" />
         <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/results/resultados_angulos" />
+        <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/recebeDadosDJI.py" />
         <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="928" />
-    <option name="height" value="1084" />
+    <option name="x" value="1576" />
+    <option name="y" value="150" />
+    <option name="width" value="390" />
+    <option name="height" value="524" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -126,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.recebeDadosDJI">
     <configuration name="leArquivo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,8 +220,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="recebeDadosDJI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/recebeDadosDJI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.recebeDadosDJI" />
         <item itemvalue="Python.leArquivo" />
       </list>
     </recent_temporary>
@@ -170,19 +264,19 @@
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5016129" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925585" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945414" weight="0.8631139" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36799183" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.968652" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054586" side_tool="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -204,16 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="241" column="8" lean-forward="true" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/results/resultados_angulos">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -221,10 +305,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="360" lean-forward="true" selection-start-line="360" selection-end-line="360" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/recebeDadosDJI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_collect/scripts/pickpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_octomap/scripts/octomap_updater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_collect/scripts/leArquivo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#23#36#0" expanded="true" />
           </folding>

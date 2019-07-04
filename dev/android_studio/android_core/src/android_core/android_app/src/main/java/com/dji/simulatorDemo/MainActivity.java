@@ -142,7 +142,7 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
     public static WaypointMission.Builder waypointMissionBuilder;
     private WaypointMissionOperator instance;
     private WaypointMissionFinishedAction mFinishedAction = WaypointMissionFinishedAction.NO_ACTION;
-    private WaypointMissionHeadingMode mHeadingMode = WaypointMissionHeadingMode.AUTO;
+    private WaypointMissionHeadingMode mHeadingMode = WaypointMissionHeadingMode.USING_WAYPOINT_HEADING;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -217,27 +217,26 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
                 Waypoint point = new Waypoint(message.getPose().getPosition().getX(), message.getPose().getPosition().getY(), (float) message.getPose().getPosition().getZ());
 
                 //configura o heading
-                point.heading = (int) Math.round(message.getPose().getOrientation().getW());
+                point.heading = (int) Math.round(message.getPose().getOrientation().getW()); //90
 
                 //adiciona ponto na lista
                 addWaypoint(point);
 
 
                 //mostra na tela o ponto recebido
-                String point_message = ("Latitude: "+ Double.toString(point.coordinate.getLatitude()) +
+                String point_message = (" Heading: " + Integer.toString(point.heading) + "Latitude: "+ Double.toString(point.coordinate.getLatitude()) +
                         " Longitude: " + Double.toString(point.coordinate.getLongitude()) +
-                        " Altitude: " + Double.toString(point.altitude) +
-                        " Heading: " + Integer.toString(point.heading));
+                        " Altitude: " + Double.toString(point.altitude));
 
                 mPointView.setText(point_message);
 
-                rosTextView.setPublishWaypoint(point.coordinate.getLatitude(),
+                /*rosTextView.setPublishWaypoint(point.coordinate.getLatitude(),
                         point.coordinate.getLongitude(),
                         point.altitude,
                         0.0,
                         0.0,
                         0.0,
-                        point.heading);
+                        point.heading);*/
 
 
                 return "";
@@ -439,7 +438,15 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
                                             "\n" + ", PosZ : " + positionZ +
                                             "\n" + mFlightController.isVirtualStickControlModeAvailable()
                                             );
-                                    mTextView.setText(test);*/
+                                    mTextView.setText(test);
+
+                                    rosTextView.setPublishWaypoint(stateData.getLocation().getLatitude(),
+                                            stateData.getLocation().getLongitude(),
+                                            stateData.getPositionZ(),
+                                            (double)stateData.getRoll(),
+                                            (double) stateData.getPitch(),
+                                            (46.0),
+                                            (int)stateData.getYaw());*/
 
 
 
@@ -447,6 +454,7 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
                             });
                         }
                     });
+
 
                     mFlightController.setStateCallback(new FlightControllerState.Callback() {
                         @Override
@@ -489,6 +497,7 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
 
                         }
                     });
+
 
                     /*
                     mFlightController.setStateCallback(new FlightControllerState.Callback() {
@@ -643,7 +652,7 @@ public class MainActivity extends RosActivity implements View.OnClickListener {
                     if (mFlightController != null) {
 
                         mFlightController.getSimulator()
-                                .start(InitializationData.createInstance(new LocationCoordinate2D(-27.5891397, -48.54069), 10, 10),
+                                .start(InitializationData.createInstance(new LocationCoordinate2D(-27.605003, -48.519530), 10, 10),
                                         new CommonCallbacks.CompletionCallback() {
                                     @Override
                                     public void onResult(DJIError djiError) {

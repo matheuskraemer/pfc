@@ -1,8 +1,5 @@
 <component name="libraryTable">
   <library name="Gradle: com.dji:dji-sdk:4.9@aar">
-    <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.9.aar/eb23dbbf393362077717c9f3807aebb1/annotations.zip!/" />
-    </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.9.aar/eb23dbbf393362077717c9f3807aebb1/jars/libs/rxjava-computation-expressions-0.21.1.jar!/" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dji-sdk-4.9.aar/eb23dbbf393362077717c9f3807aebb1/jars/libs/adapter-rxjava2-2.2.0.jar!/" />
