@@ -1,0 +1,358 @@
+Pronto para executar 6 posicoes
+Planejando e simulando
+Limpando pontos antigos...
+Enviou posicao:
+Aguardando...:
+data: "cleared"
+Manda trajetoria
+---------------------------
+Coordenadas cartesianas
+x: 0.0010694366313
+y: -0.00507047013287
+z: 2.01584698463
+Orientacao: 180.0
+---------------------------
+Coordenadas GPS
+x: -27.6050030457
+y: -48.5195299875
+z: 2.01584698463
+Orientacao: 180.0
+---------------------------
+Esta na posicao
+Chegou!
+-----------------
+Planejando e simulando
+Limpando pontos antigos...
+Enviou posicao:
+Aguardando...:
+data: "cleared"
+Manda trajetoria
+---------------------------
+Coordenadas cartesianas
+x: 0.0015845294458
+y: -0.00143651328965
+z: 2.01527642085
+Orientacao: 180.0
+---------------------------
+Coordenadas GPS
+x: -27.6050030128
+y: -48.519529983
+z: 2.01527642085
+Orientacao: -136.0
+---------------------------
+Coordenadas cartesianas
+x: 0.534137108142
+y: -0.608447332157
+z: 2.01536263793
+Orientacao: -165.0
+---------------------------
+Coordenadas GPS
+x: -27.6050083912
+y: -48.5195244679
+z: 2.01536263793
+Orientacao: -136.0
+---------------------------
+Coordenadas cartesianas
+x: 1.06668968684
+y: -1.21545815102
+z: 2.01544885502
+Orientacao: -151.0
+---------------------------
+Coordenadas GPS
+x: -27.6050137696
+y: -48.5195189528
+z: 2.01544885502
+Orientacao: -136.0
+---------------------------
+Coordenadas cartesianas
+x: 1.59924226554
+y: -1.82246896989
+z: 2.0155350721
+Orientacao: -136.0
+---------------------------
+Coordenadas GPS
+x: -27.6050191481
+y: -48.5195134376
+z: 2.0155350721
+Orientacao: -136.0
+---------------------------
+Configurando...
+data: "configured"
+Uploading...
+data: "uploaded"
+Mission Start...
+data: "started"
+Comecou!
+data: "chegou"
+Chegou!
+-----------------
+Aguardando resultado para rota adaptativa
+Executando rota adaptativa
+Planejando e simulando
+Limpando pontos antigos...
+Enviou posicao:
+Aguardando...:
+data: "cleared"
+Manda trajetoria
+---------------------------
+Coordenadas cartesianas
+x: 1.60139006705
+y: -1.8195672751
+z: 2.01486801338
+Orientacao: -136.0
+---------------------------
+Coordenadas GPS
+x: -27.6050191215
+y: -48.5195134165
+z: 2.01486801338
+Orientacao: -31.0
+---------------------------
+Coordenadas cartesianas
+x: 1.48830568503
+y: -2.65512951054
+z: 2.01520645725
+Orientacao: -104.0
+---------------------------
+Coordenadas GPS
+x: -27.6050266782
+y: -48.5195143916
+z: 2.01520645725
+Orientacao: -31.0
+---------------------------
+Coordenadas cartesianas
+x: 1.37522130301
+y: -3.49069174598
+z: 2.01554490112
+Orientacao: -73.0
+---------------------------
+Coordenadas GPS
+x: -27.6050342348
+y: -48.5195153667
+z: 2.01554490112
+Orientacao: -31.0
+---------------------------
+Coordenadas cartesianas
+x: 1.22444212698
+y: -4.60477472656
+z: 2.01599615962
+Orientacao: -31.0
+---------------------------
+Coordenadas GPS
+x: -27.6050443104
+y: -48.5195166668
+z: 2.01599615962
+Orientacao: -31.0
+---------------------------
+Configurando...
+data: "configured"
+Uploading...
+data: "uploaded"
+Mission Start...
+data: "started"
+Comecou!
+data: "chegou"
+Chegou!
+-----------------
+Planejando e simulando
+Limpando pontos antigos...
+Enviou posicao:
+Aguardando...:
+data: "cleared"
+Manda trajetoria
+---------------------------
+Coordenadas cartesianas
+x: 1.22640024142
+y: -4.60827441265
+z: 2.01530427885
+Orientacao: -31.0
+---------------------------
+Coordenadas GPS
+x: -27.6050443416
+y: -48.5195166463
+z: 2.01530427885
+Orientacao: 62.0
+---------------------------
+Coordenadas cartesianas
+x: 0.336669195989
+y: -4.6044690118
+z: 2.42710575489
+Orientacao: -18.0
+---------------------------
+Coordenadas GPS
+x: -27.6050444684
+y: -48.519525655
+z: 2.42710575489
+Orientacao: 62.0
+---------------------------
+Coordenadas cartesianas
+x: -0.553061849444
+y: -4.60066361094
+z: 2.83890723093
+Orientacao: -5.0
+---------------------------
+Coordenadas GPS
+x: -27.6050445952
+y: -48.5195346638
+z: 2.83890723093
+Orientacao: 62.0
+---------------------------
+Coordenadas cartesianas
+x: -1.44279289488
+y: -4.59685821008
+z: 3.25070870697
+Orientacao: 8.0
+---------------------------
+Coordenadas GPS
+x: -27.6050447219
+y: -48.5195436725
+z: 3.25070870697
+Orientacao: 62.0
+---------------------------
+Coordenadas cartesianas
+x: -2.31069534672
+y: -4.51159453729
+z: 3.32978843817
+Orientacao: 22.0
+---------------------------
+Coordenadas GPS
+x: -27.60504411
+y: -48.5195524768
+z: 3.32978843817
+Orientacao: 62.0
+---------------------------
+Coordenadas cartesianas
+x: -3.14585490818
+y: -4.30414345658
+z: 2.9097855521
+Orientacao: 36.0
+---------------------------
+Coordenadas GPS
+x: -27.6050423902
+y: -48.5195609744
+z: 2.9097855521
+Orientacao: 62.0
+---------------------------
+Coordenadas cartesianas
+x: -3.98101446963
+y: -4.09669237587
+z: 2.48978266603
+Orientacao: 50.0
+---------------------------
+Coordenadas GPS
+x: -27.6050406703
+y: -48.519569472
+z: 2.48978266603
+Orientacao: 62.0
+---------------------------
+Coordenadas cartesianas
+x: -4.6968801435
+y: -3.88994570442
+z: 2.01535140248
+Orientacao: 62.0
+---------------------------
+Coordenadas GPS
+x: -27.6050389352
+y: -48.5195767617
+z: 2.01535140248
+Orientacao: 62.0
+---------------------------
+Configurando...
+data: "configured"
+Uploading...
+data: "uploaded"
+Mission Start...
+data: "started"
+Comecou!
+data: "chegou"
+Chegou!
+-----------------
+Planejando e simulando
+Limpando pontos antigos...
+Enviou posicao:
+Aguardando...:
+data: "cleared"
+Manda trajetoria
+---------------------------
+Coordenadas cartesianas
+x: -4.70063101808
+y: -3.89175699098
+z: 2.01447766711
+Orientacao: 63.0
+---------------------------
+Coordenadas GPS
+x: -27.6050389522
+y: -48.5195767993
+z: 2.01447766711
+Orientacao: 5.0
+---------------------------
+Coordenadas cartesianas
+x: -4.60832578134
+y: -3.01708000857
+z: 2.0653810106
+Orientacao: 46.0
+---------------------------
+Coordenadas GPS
+x: -27.6050310465
+y: -48.5195760426
+z: 2.0653810106
+Orientacao: 5.0
+---------------------------
+Coordenadas cartesianas
+x: -4.51602054459
+y: -2.14240302616
+z: 2.11628435409
+Orientacao: 30.0
+---------------------------
+Coordenadas GPS
+x: -27.6050231408
+y: -48.5195752858
+z: 2.11628435409
+Orientacao: 5.0
+---------------------------
+Coordenadas cartesianas
+x: -4.42371530785
+y: -1.26772604376
+z: 2.16718769757
+Orientacao: 14.0
+---------------------------
+Coordenadas GPS
+x: -27.6050152351
+y: -48.519574529
+z: 2.16718769757
+Orientacao: 5.0
+---------------------------
+Coordenadas cartesianas
+x: -4.16408882338
+y: -0.417862244308
+z: 2.15219912048
+Orientacao: 4.0
+---------------------------
+Coordenadas GPS
+x: -27.6050075229
+y: -48.5195720732
+z: 2.15219912048
+Orientacao: 5.0
+---------------------------
+Coordenadas cartesianas
+x: -3.5513587961
+y: 0.557310585706
+z: 2.0156073709
+Orientacao: 5.0
+---------------------------
+Coordenadas GPS
+x: -27.6049986166
+y: -48.5195660678
+z: 2.0156073709
+Orientacao: 5.0
+---------------------------
+Configurando...
+data: "configured"
+Uploading...
+data: "uploaded"
+Mission Start...
+data: "started"
+Comecou!
+data: "chegou"
+Chegou!
+-----------------
+

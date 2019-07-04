@@ -1,0 +1,306 @@
+Pronto para executar 6 posicoes
+Planejando e simulando
+Enviou posicao:
+Aguardando...:
+Manda trajetoria
+tamanho dos resultados do filtro
+1
+---------------------------
+Coordenadas cartesianas
+x: 9.8273302854
+y: 29.5566448312
+z: 2.01595557668
+Orientacao: 180.0
+---------------------------
+Coordenadas GPS
+x: -27.6047346401
+y: -48.5194365108
+z: 2.01595557668
+---------------------------
+Esta na posicao
+Chegou!
+-----------------
+Planejando e simulando
+Enviou posicao:
+Aguardando...:
+Manda trajetoria
+tamanho dos resultados do filtro
+4
+---------------------------
+Coordenadas cartesianas
+x: 9.82611128955
+y: 29.5601692644
+z: 2.01560656615
+Orientacao: 180.0
+---------------------------
+Coordenadas GPS
+x: -27.6047346085
+y: -48.5194365239
+z: 2.01560656615
+---------------------------
+Coordenadas cartesianas
+x: 10.3592036639
+y: 28.953285558
+z: 2.0155979946
+Orientacao: -166.0
+---------------------------
+Coordenadas GPS
+x: -27.6047399857
+y: -48.5194310033
+z: 2.0155979946
+---------------------------
+Coordenadas cartesianas
+x: 10.8922960383
+y: 28.3464018515
+z: 2.01558942305
+Orientacao: -151.0
+---------------------------
+Coordenadas GPS
+x: -27.6047453628
+y: -48.5194254828
+z: 2.01558942305
+---------------------------
+Coordenadas cartesianas
+x: 11.4253884126
+y: 27.7395181451
+z: 2.01558085149
+Orientacao: -136.0
+---------------------------
+Coordenadas GPS
+x: -27.60475074
+y: -48.5194199623
+z: 2.01558085149
+---------------------------
+data: "chegou"
+Chegou!
+-----------------
+Aguardando resultado para rota adaptativa
+Executando rota adaptativa
+Planejando e simulando
+Enviou posicao:
+Aguardando...:
+Manda trajetoria
+tamanho dos resultados do filtro
+4
+---------------------------
+Coordenadas cartesianas
+x: 11.4272137846
+y: 27.7426975127
+z: 2.01501475809
+Orientacao: -135.0
+---------------------------
+Coordenadas GPS
+x: -27.604750711
+y: -48.5194199444
+z: 2.01501475809
+---------------------------
+Coordenadas cartesianas
+x: 11.3143282806
+y: 26.9070034456
+z: 2.01532310163
+Orientacao: -104.0
+---------------------------
+Coordenadas GPS
+x: -27.6047582688
+y: -48.5194209175
+z: 2.01532310163
+---------------------------
+Coordenadas cartesianas
+x: 11.2014427766
+y: 26.0713093785
+z: 2.01563144518
+Orientacao: -73.0
+---------------------------
+Coordenadas GPS
+x: -27.6047658267
+y: -48.5194218905
+z: 2.01563144518
+---------------------------
+Coordenadas cartesianas
+x: 11.0509287713
+y: 24.9570506225
+z: 2.0160425699
+Orientacao: -31.0
+---------------------------
+Coordenadas GPS
+x: -27.6047759038
+y: -48.5194231879
+z: 2.0160425699
+---------------------------
+data: "chegou"
+Chegou!
+-----------------
+Planejando e simulando
+Enviou posicao:
+Aguardando...:
+Manda trajetoria
+tamanho dos resultados do filtro
+8
+---------------------------
+Coordenadas cartesianas
+x: 11.0537378237
+y: 24.9542707383
+z: 2.01536528236
+Orientacao: -31.0
+---------------------------
+Coordenadas GPS
+x: -27.6047759283
+y: -48.5194231589
+z: 2.01536528236
+---------------------------
+Coordenadas cartesianas
+x: 10.1982531057
+y: 24.8589047761
+z: 2.290129817
+Orientacao: -17.0
+---------------------------
+Coordenadas GPS
+x: -27.6047769434
+y: -48.5194318007
+z: 2.290129817
+---------------------------
+Coordenadas cartesianas
+x: 9.34276838763
+y: 24.7635388139
+z: 2.56489435163
+Orientacao: -3.0
+---------------------------
+Coordenadas GPS
+x: -27.6047779584
+y: -48.5194404426
+z: 2.56489435163
+---------------------------
+Coordenadas cartesianas
+x: 8.48728366958
+y: 24.6681728517
+z: 2.83965888626
+Orientacao: 12.0
+---------------------------
+Coordenadas GPS
+x: -27.6047789734
+y: -48.5194490844
+z: 2.83965888626
+---------------------------
+Coordenadas cartesianas
+x: 7.58120296502
+y: 24.7377289057
+z: 2.89514707219
+Orientacao: 27.0
+---------------------------
+Coordenadas GPS
+x: -27.6047785101
+y: -48.519458272
+z: 2.89514707219
+---------------------------
+Coordenadas cartesianas
+x: 6.74239884567
+y: 24.9870055348
+z: 2.69122992534
+Orientacao: 39.0
+---------------------------
+Coordenadas GPS
+x: -27.6047764137
+y: -48.519466815
+z: 2.69122992534
+---------------------------
+Coordenadas cartesianas
+x: 5.92557914251
+y: 25.2972823738
+z: 2.39939668572
+Orientacao: 51.0
+---------------------------
+Coordenadas GPS
+x: -27.6047737631
+y: -48.5194751479
+z: 2.39939668572
+---------------------------
+Coordenadas cartesianas
+x: 5.12942051885
+y: 25.6718394774
+z: 2.01530440773
+Orientacao: 62.0
+---------------------------
+Coordenadas GPS
+x: -27.604770529
+y: -48.5194832846
+z: 2.01530440773
+---------------------------
+data: "chegou"
+Chegou!
+-----------------
+Planejando e simulando
+Enviou posicao:
+Aguardando...:
+Manda trajetoria
+tamanho dos resultados do filtro
+6
+---------------------------
+Coordenadas cartesianas
+x: 5.12682043152
+y: 25.6688399063
+z: 2.01500034109
+Orientacao: 63.0
+---------------------------
+Coordenadas GPS
+x: -27.6047705565
+y: -48.5194833103
+z: 2.01500034109
+---------------------------
+Coordenadas cartesianas
+x: 5.23105583758
+y: 26.4655771392
+z: 1.83061550896
+Orientacao: 45.0
+---------------------------
+Coordenadas GPS
+x: -27.6047633516
+y: -48.5194824169
+z: 1.83061550896
+---------------------------
+Coordenadas cartesianas
+x: 5.46760893957
+y: 27.4087405409
+z: 1.81844131515
+Orientacao: 28.0
+---------------------------
+Coordenadas GPS
+x: -27.6047548021
+y: -48.5194802136
+z: 1.81844131515
+---------------------------
+Coordenadas cartesianas
+x: 5.71986889786
+y: 28.2557209459
+z: 1.88005058627
+Orientacao: 23.0
+---------------------------
+Coordenadas GPS
+x: -27.6047471172
+y: -48.5194778318
+z: 1.88005058627
+---------------------------
+Coordenadas cartesianas
+x: 5.97212885615
+y: 29.102701351
+z: 1.94165985739
+Orientacao: 16.0
+---------------------------
+Coordenadas GPS
+x: -27.6047394323
+y: -48.5194754499
+z: 1.94165985739
+---------------------------
+Coordenadas cartesianas
+x: 6.2748408061
+y: 30.119077837
+z: 2.01559098273
+Orientacao: 5.0
+---------------------------
+Coordenadas GPS
+x: -27.6047302105
+y: -48.5194725917
+z: 2.01559098273
+---------------------------
+data: "chegou"
+Chegou!
+
