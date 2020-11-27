@@ -25,9 +25,22 @@ dji_command = rospy.Publisher("dji/command", String, queue_size=1)
 
 #olat = -27.5891397
 #olon = -48.54069
+'''
+olat = -27.601107
+olon = -48.574472
+'''
 
+'''
 olat = -27.605003
 olon = -48.519530
+'''
+
+olat = -27.594262
+olon = -48.496775
+altura_safety = 20
+
+
+
 
 # calculador de projecao
 #project = pyproj.Proj('+proj=merc +datum=WGS84 +units=m')
@@ -183,7 +196,7 @@ def normaliza(pontos, ponto_normaliza):
 ponto_ultimo = None
 def resultCallback(msg):
 
-    global olat, olon, cleared, started, uploaded, configured, flag_dji, ponto_ultimo
+    global olat, olon, cleared, started, uploaded, configured, flag_dji, ponto_ultimo, altura_safety
 
 
     # logica de limpeza de pontos antigos
@@ -278,7 +291,7 @@ def resultCallback(msg):
     #print len(points_filtered)
     print "---------------------------"
 
-    points_filtered[-1]
+    #points_filtered[-1]
 
     rpy = euler_from_quaternion(
         [points_filtered[-1].transforms[0].rotation.x, points_filtered[-1].transforms[0].rotation.y, points_filtered[-1].transforms[0].rotation.z,
@@ -333,7 +346,7 @@ def resultCallback(msg):
 
         waypoint.pose.position.x = lat
         waypoint.pose.position.y = lon
-        waypoint.pose.position.z = point.transforms[0].translation.z
+        waypoint.pose.position.z = altura_safety #point.transforms[0].translation.z
 
         waypoint.pose.orientation.x = point.transforms[0].rotation.x
         waypoint.pose.orientation.y = point.transforms[0].rotation.y
@@ -345,7 +358,7 @@ def resultCallback(msg):
         waypoint.pose.orientation.w = orientacao
 
         print "Coordenadas cartesianas"
-        print point.transforms[0].translation
+        print waypoint.pose.position
         print "Orientacao:", quatToDegree(point)
         print "---------------------------"
         print "Coordenadas GPS"
@@ -370,6 +383,7 @@ def resultCallback(msg):
         flag_dji = 1
 
     else:
+
 
 
         

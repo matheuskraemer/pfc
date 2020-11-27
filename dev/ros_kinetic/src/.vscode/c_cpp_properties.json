@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/geonav_transform/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/mav_comm/mav_msgs/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/moveit_simple_controller_manager/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/octomap_mapping/octomap_server/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/mav_comm/planning_msgs/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_collect/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_control/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_joystick_interface/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_octomap/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/ROS_quadrotor_simulator/quad_planning/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/rotors_simulator/rotors_control/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/rotors_simulator/rotors_gazebo_plugins/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/rotors_simulator/rotors_joy_interface/include/**",
+        "/home/matheus/Projects/pfc/dev/ros_kinetic/src/rotors_simulator/rotors_model/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}

@@ -7,50 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fb95d7b-9705-40e5-9558-2d672bfa3a91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_dji_sdk_4_9_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_dji_sdk_4_9_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_dji_sdk_provided_4_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_dji_dji_sdk_provided_4_9_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_12_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_12_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lmax_disruptor_3_3_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_lmax_disruptor_3_3_9_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mapzen_android_lost_3_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mapzen_android_lost_3_0_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_wire_wire_runtime_2_2_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_wire_wire_runtime_2_2_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_pool_commons_pool_1_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_pool_commons_pool_1_6_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__dnsjava_dnsjava_2_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__dnsjava_dnsjava_2_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_3_5_2_Final_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_3_5_2_Final_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_codec_1_3_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_codec_1_3_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_httpclient_3_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_httpclient_3_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_io_1_4_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_io_1_4_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_lang_2_4_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_lang_2_4_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_logging_1_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_logging_1_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_net_2_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_com_springsource_org_apache_commons_net_2_0_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ws_commons_ws_commons_util_1_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_ws_commons_ws_commons_util_1_0_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_57_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcpkix_jdk15on_1_57_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_57_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_bouncycastle_bcprov_jdk15on_1_57_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_acm_serial/android_acm_serial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_acm_serial/android_acm_serial.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_app/android_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/android_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_benchmarks/android_benchmarks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_benchmarks/android_benchmarks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_camera/android_tutorial_camera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_camera/android_tutorial_camera.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_tutorial_image_transport/android_tutorial_image_transport.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android_tutorial_image_transport/android_tutorial_image_transport.iml" afterDir="false" />
@@ -133,7 +96,7 @@
     <session id="-6707294">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -141,27 +104,27 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.58" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="5" />
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="5" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -195,48 +158,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="219" column="97" selection-start-line="219" selection-start-column="97" selection-end-line="219" selection-end-column="97" />
+            <state relative-caret-position="159">
+              <caret line="144" column="54" lean-forward="true" selection-start-line="144" selection-start-column="54" selection-end-line="144" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#6157#7278#0" expanded="true" />
-                <element signature="e#7277#7278#0" expanded="true" />
-                <element signature="e#7379#8750#0" expanded="true" />
-                <element signature="e#8749#8750#0" expanded="true" />
-                <element signature="e#13378#13730#0" expanded="true" />
-                <element signature="e#13729#13730#0" expanded="true" />
-                <element signature="e#16146#17667#0" expanded="true" />
-                <element signature="e#16369#17617#0" expanded="true" />
-                <element signature="e#17616#17617#0" expanded="true" />
-                <element signature="e#17666#17667#0" expanded="true" />
-                <element signature="e#18272#20657#0" expanded="true" />
-                <element signature="e#18523#20603#0" expanded="true" />
-                <element signature="e#20602#20603#0" expanded="true" />
-                <element signature="e#20656#20657#0" expanded="true" />
-                <element signature="e#26921#29088#0" expanded="true" />
-                <element signature="e#27456#28052#0" expanded="true" />
-                <element signature="e#28051#28052#0" expanded="true" />
-                <element signature="e#28314#28989#0" expanded="true" />
-                <element signature="e#28988#28989#0" expanded="true" />
-                <element signature="e#29087#29088#0" expanded="true" />
-                <element signature="e#29141#30140#0" expanded="true" />
-                <element signature="e#30139#30140#0" expanded="true" />
-                <element signature="e#30192#31128#0" expanded="true" />
-                <element signature="e#31127#31128#0" expanded="true" />
-                <element signature="e#31384#31864#0" expanded="true" />
-                <element signature="e#31863#31864#0" expanded="true" />
-                <element signature="e#32082#32537#0" expanded="true" />
-                <element signature="e#32536#32537#0" expanded="true" />
-                <element signature="e#32746#33260#0" expanded="true" />
-                <element signature="e#33259#33260#0" expanded="true" />
-                <element signature="e#33488#33999#0" expanded="true" />
-                <element signature="e#33998#33999#0" expanded="true" />
-                <element signature="e#38493#39098#0" expanded="true" />
-                <element signature="e#39097#39098#0" expanded="true" />
-                <element signature="e#39201#39511#0" expanded="true" />
-                <element signature="e#39510#39511#0" expanded="true" />
-                <element signature="e#39612#39920#0" expanded="true" />
-                <element signature="e#39919#39920#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -251,22 +176,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="585">
               <caret line="76" column="34" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1857#1858#0" expanded="true" />
                 <element signature="e#1888#1889#0" expanded="true" />
-                <element signature="e#4615#5124#0" expanded="true" />
-                <element signature="e#4755#4898#0" expanded="true" />
-                <element signature="e#4897#4898#0" expanded="true" />
-                <element signature="e#4933#5072#0" expanded="true" />
-                <element signature="e#5071#5072#0" expanded="true" />
-                <element signature="e#5123#5124#0" expanded="true" />
-                <element signature="e#5564#5733#0" expanded="true" />
-                <element signature="e#5732#5733#0" expanded="true" />
-                <element signature="e#5774#5945#0" expanded="true" />
-                <element signature="e#5944#5945#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -276,8 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>23</find>
-      <find>waypoint</find>
       <find>mFinishedAction</find>
       <find>successfu</find>
       <find>config</find>
@@ -298,7 +211,6 @@
       <find>simulator</find>
       <find>mHeadingMod</find>
       <find>heading</find>
-      <find>mHeadingMode</find>
       <find>auto</find>
       <find>HeadingMode</find>
       <find>way</find>
@@ -306,6 +218,9 @@
       <find>pubWaypoint</find>
       <find>setPublishWaypoint</find>
       <find>90</find>
+      <find>speed</find>
+      <find>mSpeed</find>
+      <find>mHeadingMode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -361,7 +276,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -378,21 +303,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android_app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="android_core" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -933,7 +844,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26533997" />
@@ -950,8 +861,8 @@
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.29393306" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.41527197" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.41527197" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -996,20 +907,20 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android_core_components/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android_tutorial_pubsub/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android_tutorial_pubsub/local.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1028,8 +939,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android_tutorial_teleop/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android_core_components/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1079,12 +990,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android_app/src/androidTest/java/com/dji/simulatorDemo/ApplicationTest.java" />
     <entry file="file://$PROJECT_DIR$/android_app/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="72" selection-start-line="30" selection-end-line="72" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1161,12 +1072,12 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AndroidStudioProjects/android_core/src/android_core/android_app/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$USER_HOME$/AndroidStudioProjects/android_core/src/android_core/android_benchmarks/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1185,32 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="76" column="34" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1888#1889#0" expanded="true" />
-            <element signature="e#4615#5124#0" expanded="true" />
-            <element signature="e#4755#4898#0" expanded="true" />
-            <element signature="e#4897#4898#0" expanded="true" />
-            <element signature="e#4933#5072#0" expanded="true" />
-            <element signature="e#5071#5072#0" expanded="true" />
-            <element signature="e#5123#5124#0" expanded="true" />
-            <element signature="e#5564#5733#0" expanded="true" />
-            <element signature="e#5732#5733#0" expanded="true" />
-            <element signature="e#5774#5945#0" expanded="true" />
-            <element signature="e#5944#5945#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android_app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/buildscript.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1218,50 +1103,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/android_app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android_core_components/src/org/ros/android/view/RosTextView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="219" column="97" selection-start-line="219" selection-start-column="97" selection-end-line="219" selection-end-column="97" />
+        <state relative-caret-position="585">
+          <caret line="76" column="34" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6157#7278#0" expanded="true" />
-            <element signature="e#7277#7278#0" expanded="true" />
-            <element signature="e#7379#8750#0" expanded="true" />
-            <element signature="e#8749#8750#0" expanded="true" />
-            <element signature="e#13378#13730#0" expanded="true" />
-            <element signature="e#13729#13730#0" expanded="true" />
-            <element signature="e#16146#17667#0" expanded="true" />
-            <element signature="e#16369#17617#0" expanded="true" />
-            <element signature="e#17616#17617#0" expanded="true" />
-            <element signature="e#17666#17667#0" expanded="true" />
-            <element signature="e#18272#20657#0" expanded="true" />
-            <element signature="e#18523#20603#0" expanded="true" />
-            <element signature="e#20602#20603#0" expanded="true" />
-            <element signature="e#20656#20657#0" expanded="true" />
-            <element signature="e#26921#29088#0" expanded="true" />
-            <element signature="e#27456#28052#0" expanded="true" />
-            <element signature="e#28051#28052#0" expanded="true" />
-            <element signature="e#28314#28989#0" expanded="true" />
-            <element signature="e#28988#28989#0" expanded="true" />
-            <element signature="e#29087#29088#0" expanded="true" />
-            <element signature="e#29141#30140#0" expanded="true" />
-            <element signature="e#30139#30140#0" expanded="true" />
-            <element signature="e#30192#31128#0" expanded="true" />
-            <element signature="e#31127#31128#0" expanded="true" />
-            <element signature="e#31384#31864#0" expanded="true" />
-            <element signature="e#31863#31864#0" expanded="true" />
-            <element signature="e#32082#32537#0" expanded="true" />
-            <element signature="e#32536#32537#0" expanded="true" />
-            <element signature="e#32746#33260#0" expanded="true" />
-            <element signature="e#33259#33260#0" expanded="true" />
-            <element signature="e#33488#33999#0" expanded="true" />
-            <element signature="e#33998#33999#0" expanded="true" />
-            <element signature="e#38493#39098#0" expanded="true" />
-            <element signature="e#39097#39098#0" expanded="true" />
-            <element signature="e#39201#39511#0" expanded="true" />
-            <element signature="e#39510#39511#0" expanded="true" />
-            <element signature="e#39612#39920#0" expanded="true" />
-            <element signature="e#39919#39920#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android_app/src/main/java/com/dji/simulatorDemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="144" column="54" lean-forward="true" selection-start-line="144" selection-start-column="54" selection-end-line="144" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f7f069-d717-4b11-b36a-1ca9fc4b2294" name="Default Changelist" comment="" />
+    <list default="true" id="50f7f069-d717-4b11-b36a-1ca9fc4b2294" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" beforeDir="false" afterPath="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +15,44 @@
     <favorites_list name="src" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_collect/scripts/leArquivo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#23#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/recebeDadosDJI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,8 +63,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lat</find>
-      <find>send_goal</find>
       <find>execu</find>
       <find>lag_dj</find>
       <find>flag_dji</find>
@@ -50,6 +88,11 @@
       <find>pyproj</find>
       <find>gc</find>
       <find>olat</find>
+      <find>posicao</find>
+      <find>limpando</find>
+      <find>orientacao</find>
+      <find>altura_safety</find>
+      <find>clear</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,16 +106,16 @@
         <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_collect/scripts/leArquivo.py" />
         <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/results/resultados_angulos" />
         <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/recebeDadosDJI.py" />
-        <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" />
         <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/avaliacaoPontos.py" />
+        <option value="$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1576" />
-    <option name="y" value="150" />
-    <option name="width" value="390" />
-    <option name="height" value="524" />
+    <option name="x" value="1532" />
+    <option name="y" value="122" />
+    <option name="width" value="388" />
+    <option name="height" value="523" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -80,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,19 +146,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ROS_quadrotor_simulator" type="462c0819:PsiDirectoryNode" />
               <item name="quad_planning" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ROS_quadrotor_simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="quad_planning" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,7 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.avaliacaoPontos">
+  <component name="RunManager" selected="Python.recebeDadosDJI">
     <configuration name="avaliacaoPontos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="src" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,8 +238,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.avaliacaoPontos" />
         <item itemvalue="Python.recebeDadosDJI" />
+        <item itemvalue="Python.avaliacaoPontos" />
         <item itemvalue="Python.leArquivo" />
       </list>
     </recent_temporary>
@@ -235,7 +271,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3282365" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5127421" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054586" side_tool="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -272,16 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/recebeDadosDJI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_collect/scripts/pickpoint.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -296,30 +322,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_collect/scripts/leArquivo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/pyproj/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="565" selection-start-line="565" selection-end-line="565" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="312" column="102" selection-start-line="312" selection-start-column="98" selection-end-line="312" selection-end-column="102" />
-          <folding>
-            <element signature="e#23#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -329,6 +335,43 @@
           <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_collect/scripts/leArquivo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/recebeDadosDJI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROS_quadrotor_simulator/quad_planning/scripts/pointByPointPlanning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
